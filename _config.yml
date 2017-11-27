@@ -1,32 +1,32 @@
-title: Materialize Jekyll
-description: Materialize Theme for Jekyll, Github Pages
-url: http://astro36.me/Materialize-Jekyll/
-keywords: ["Programming", "Blog"]
+title: MeowPiE's Lab
+description: 프로그래밍하는 냥파이의 냐옹냐옹 블로그다냥!
+url: https://meowpie.cf/
+keywords: ["Programming", "Blog", "IT"]
 timezone: Asia/Seoul
 permalink: pretty
 
-about: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam porta, odio vitae sodales malesuada, nibh diam convallis lectus, non scelerisque arcu lectus non nisi. Etiam tincidunt libero eget urna tristique faucibus. Pellentesque varius mi at placerat lobortis. Donec nec aliquam augue. Cras in gravida urna. Nulla dignissim semper accumsan. Nullam mattis felis metus, nec accumsan lorem porta et. Ut dictum dapibus est. In eu ultricies lorem. Duis semper elementum arcu, in rutrum tellus ornare eu."
+about: "냥파이의 프로그래밍과 취미생활을 담은 깃허브 페이지 블로그입니다! 항상 신기술을 탐구하고 발빠르게 적용하려고 노력하는 학생입니다!! 일주일에 적어도 글을 하나정도 적는게 제 작은 목표입니다~ 방문해주셔서 고맙습니다!"
 
 author:
   codepen: 
-  disqus: 
+  disqus: meowpies-lab
   dribbble: 
-  email: astr36@naver.com
+  email: email@meowpie.cf
   facebook: 
   flickr: 
   foursquare: 
-  github: Astro36 # required
-  google_analytics: UA-77377358-3
+  github: MeowPiE # required
+  google_analytics: UA-109470193-1
   google_plus: 
   instagram: 
   lastfm: 
   linkedin: 
-  name: Astro # required
+  name: MeowPiE # required
   pinterest: 
   soundcloud: 
   stackoverflow: 
   steam: 
-  telegram: psj1026
+  telegram: 
   tumblr: 
   twitter: 
   weibo: 
