@@ -1,51 +1,26 @@
-# Materialize-Jekyll
+# MeowPiE's Lab
 
-![Logo](./assets/img/materialize_jekyll.png)
+![Logo](./assets/img/logo.png)
 
-> Materialize Theme for Jekyll, Github Pages
+> 프로그래밍하는 냥파이의 냐옹냐옹 블로그다냥!
 
-[![Github All Releases](https://img.shields.io/github/downloads/Astro36/Materialize-Jekyll/total.svg?style=flat-square)](https://github.com/Astro36/Materialize-Jekyll/releases)
+깃허브 페이지로 제작된 냥파이의 프로그래밍과 IT 정보를 다루는 블로그!
 
-## ChangeLog
+## YAML Front Matter
 
-See [CHANGELOG](./CHANGELOG.md)
-
-## Demo
-
-| Index | Posts |
-|:-:|:-:|
-| ![Demo Index](./assets/img/demo_index.png) | ![Demo Posts](./assets/img/demo_posts.png) |
-
-| Tags | Resources |
-|:-:|:-:|
-| ![Demo Tags](./assets/img/demo_tags.png) | ![Demo Resources](./assets/img/demo_resources.png) |
-
-See [example](http://astro36.me/Materialize-Jekyll/)
-
-## Features
-
-- About
-- Blog
-- Post Acrhive
-- Category
-- Tag Cloud
-- Resources Viewer
-
-## Installation
-
-- Fork this repository
-- Clone your forked repository
-
-```bash
-git clone https://github.com/you/Materialize-Jekyll.git 
+```
+---
+title: "Awesome Title"
+author: MeowPiE
+category: notice
+tags: ['1', '2']
+image:
+  path: Picture Path
+  copyright: MeowPiE
+---
 ```
 
-## Usage
-
-- Modify `_config.yml` file.
-- Create your post on `_posts` directory.
-
-## License
+## Theme License
 
 ```text
 Materialize Jekyll
