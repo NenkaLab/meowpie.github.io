@@ -47,9 +47,16 @@ layout: default
               {% for tag in page.tags %}
                 <div class="chip">{{ tag }}</div>
               {% endfor %}
-              <div class="divider" style="margin: 16px 0;"></div>
+            </div>
+          </div>
+        </article>
+      </div>
+      <div class="col s12">
+        <article>
+          <div class="card">
+            <div class="card-content">
+              <span class="card-title">Share</span>
               {% include sharelink.html %}
-              <p>지금 보고계시는 페이지는? {{ page.title }} ({{ url }}{{ page.url }})</p>
             </div>
           </div>
         </article>
