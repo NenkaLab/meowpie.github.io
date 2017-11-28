@@ -1,10 +1,11 @@
 ---
 title: "깃허브 페이지로 나만의 사이트 쉽게 구축하자!"
 author: MeowPiE
+date: 2017-11-08 12:00
 category: github
 tags: ['깃허브', '페이지', '사이트']
 image:
-  path: https://raw.githubusercontent.com/MeowPiE/meowpie.github.io/master/assets/img/octocat.png
+  path: https://raw.githubusercontent.com/MeowPiE/meowpie.github.io/master/assets/img/github_page.png
   copyright: GitHub
 ---
 

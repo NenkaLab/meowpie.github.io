@@ -1,6 +1,7 @@
 ---
 title: "마이크로소프트 런처 사용기"
 author: MeowPiE
+date: 2017-11-12 12:00
 category: review
 tags: ['마소', 'MS', '런처', '아이폰']
 image:

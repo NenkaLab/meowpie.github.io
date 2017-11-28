@@ -1,6 +1,7 @@
 ---
 title: "인터넷 익스플로러(IE) 접속안내"
 author: MeowPiE
+date: 2017-11-13 12:00
 category: notice
 tags: ['사이트', '블로그', '접속', '익스', 'IE']
 image:

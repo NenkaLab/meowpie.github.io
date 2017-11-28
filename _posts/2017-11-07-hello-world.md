@@ -1,6 +1,7 @@
 ---
 title: "블로그를 시작합니다!"
 author: MeowPiE
+date: 2017-11-07 12:00
 category: notice
 tags: ['깃허브', '페이지', '블로그', '시작']
 image:

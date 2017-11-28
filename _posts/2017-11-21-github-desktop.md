@@ -1,6 +1,7 @@
 ---
 title: "깃허브 데스크탑 업데이트!"
 author: MeowPiE
+date: 2017-11-21 12:00
 category: github
 tags: ['깃허브', '윈도우', '데스크탑', '프로그램']
 image:

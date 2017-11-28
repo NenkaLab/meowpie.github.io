@@ -1,6 +1,7 @@
 ---
 title: "지킬 코드 하이라이팅 사용하기"
 author: MeowPiE
+date: 2017-11-22 12:00
 category: github
 tags: ['깃허브', '페이지', '지킬', '코딩', '하이라이트']
 image:

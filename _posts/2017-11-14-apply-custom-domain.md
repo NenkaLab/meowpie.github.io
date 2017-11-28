@@ -1,6 +1,7 @@
 ---
 title: "블로그에 커스텀 도메인 등록하기"
 author: MeowPiE
+date: 2017-11-14 12:00
 category: site
 tags: ['사이트', '블로그', '커스텀', '주소', '도메인']
 image:

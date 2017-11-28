@@ -1,6 +1,7 @@
 ---
 title: "더 좋은 지킬 가이드 사이트 소개"
 author: MeowPiE
+date: 2017-11-09 12:00
 category: github
 tags: ['깃허브', '페이지', '지킬', '가이드']
 image:
