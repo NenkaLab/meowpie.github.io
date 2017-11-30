@@ -47,16 +47,26 @@ layout: default
               {% for tag in page.tags %}
                 <div class="chip">{{ tag }}</div>
               {% endfor %}
-            </div>
-          </div>
-        </article>
-      </div>
-      <div class="col s12">
-        <article>
-          <div class="card">
-            <div class="card-content">
-              <span class="card-title">Share</span>
-              {% include sharelink.html %}
+              <div class="divider" style="margin: 16px 0;"></div>
+              <!-- AddToAny BEGIN -->
+              <div class="a2a_kit a2a_kit_size_32 a2a_default_style">
+                <a class="a2a_button_google_plus"></a>
+                <a class="a2a_button_facebook"></a>
+                <a class="a2a_button_twitter"></a>
+                <a class="a2a_button_kakao"></a>
+                <a class="a2a_button_telegram"></a>
+                <a class="a2a_button_email"></a>
+                <a class="a2a_button_copy_link"></a>
+                <a class="a2a_dd" href="https://www.addtoany.com/share"></a>
+              </div>
+              <script>
+                var a2a_config = a2a_config || {};
+                a2a_config.linkname = "{{ site.title }} | {{ page.title }}";
+                a2a_config.linkurl = "{{ url }}{{ page.url }}";
+                a2a_config.locale = "ko";
+              </script>
+              <script async src="https://static.addtoany.com/menu/page.js"></script>
+              <!-- AddToAny END -->
             </div>
           </div>
         </article>
