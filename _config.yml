@@ -5,33 +5,33 @@ keywords: ["Programming", "Blog", "IT"]
 timezone: Asia/Seoul
 permalink: pretty
 
-about: "냥파이의 프로그래밍과 취미생활을 담은 깃허브 페이지 블로그입니다! 항상 신기술을 탐구하고 발빠르게 적용하려고 노력하는 학생입니다!! 일주일에 적어도 글을 하나정도 적는게 제 작은 목표입니다~ 방문해주셔서 고맙습니다!"
+about: "냥파이의 프로그래밍과 취미생활을 담은 깃허브 페이지 블로그입니다! 항상 신기술을 탐구하고 발빠르게 사용하려고 노력하고있는 평범한 학생입니다. 배가 너무 산으로 많이가서 코딩이 아닌 잡다한 컴퓨터 정보를 쓰고있습니다;; 일주일에 적어도 글을 하나정도 적는게 제 작은 목표입니다~ 방문해주셔서 고맙습니다!"
 
 author:
-  codepen: 
+  codepen:
   disqus: meowpies-lab
-  dribbble: 
+  dribbble:
   email: email@meowpie.cf
-  facebook: 
-  flickr: 
-  foursquare: 
+  facebook:
+  flickr:
+  foursquare:
   github: MeowPiE # required
   google_analytics: UA-109470193-1
-  google_plus: 
-  instagram: 
-  lastfm: 
-  linkedin: 
+  google_plus:
+  instagram:
+  lastfm:
+  linkedin:
   name: MeowPiE # required
-  pinterest: 
-  soundcloud: 
-  stackoverflow: 
-  steam: 
-  telegram: 
-  tumblr: 
-  twitter: 
-  weibo: 
-  xing: 
-  youtube: 
+  pinterest:
+  soundcloud:
+  stackoverflow:
+  steam:
+  telegram:
+  tumblr:
+  twitter:
+  weibo:
+  xing:
+  youtube:
 
 defaults:
   - scope:
