@@ -30,17 +30,7 @@ image:
 안드로이드에는 `HTML 뷰어`라는게 있어서 자바스크립트를 바로 볼 수 있어요!
 
 일단 메모장을 열고 이걸 써봅시다.
-
-{% highlight html %}
-
-<script>
-
-alert ('Hello, World!');
-
-</script>
-
-{% endhighlight %}
-
+<script async src="//jsfiddle.net/MeowPiE/q0L3f1bu/embed/html,result/"></script>
 이게 도대체 뭘까요??
 
 `<script>`는 스크립트... 음... 자바스크립트 인가......
@@ -78,17 +68,7 @@ alert ('Hello, World!');
 이녀석은 `alert`라는 기능에서 `'Hello, World!'`를 실행하겠죠?
 
 더 얘기하면 재미없으니 사진으로 결과를 보기전에
-
-{% highlight html %}
-
-<script>
-
-alert ('Hello, World!');
-
-</script>
-
-{% endhighlight %}
-
+<script async src="//jsfiddle.net/MeowPiE/q0L3f1bu/embed/html,result/"></script>
 이걸 짜서 실행해봅시다!
 
 # 파일 저장하기?
@@ -99,9 +79,7 @@ alert ('Hello, World!');
 
 ![파일저장]({{ url }}/assets/img/javascript/savefile.png)
 
-꼭!! 인코딩 형식을 `UTF-8`로 설정하세요!!
-
-안그러면 냥파이의 야심작 PCT처럼 한글이 다 깨져버려욧...ㅠㅠ
+꼭!! 인코딩 형식을 `UTF-8`로 설정하세요!! 안그러면... 뿱쌯꽭!
 
 파일을 더블 클릭해서 실행하면......
 
@@ -120,20 +98,7 @@ alert ('Hello, World!');
 간단한 알림창을 띄우는 프로그램인데도 뭔가 벌써 다른걸 막 해보고 싶으신가요?
 
 저랑 한번 간단한 스크립트를 짜볼까요?
-
-{% highlight html %}
-
-<script>
-
-alert ('Hello, World!');
-alert ('안녕하세요?');
-alert ('꺄아 신나요!!');
-alert ('알림이 많이 나와요!!!!!!');
-
-</script>
-
-{% endhighlight %}
-
+<script async src="//jsfiddle.net/MeowPiE/ybr2h7yf/embed/html,result/"></script>
 메모장에 복붙 슥슥~
 
 같은거 반복하기 귀찮잖아요?
