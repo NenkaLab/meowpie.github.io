@@ -39,19 +39,7 @@ X에 3이 들어있고 Y에 2가 들어있으니까요 ㅎ
 
 안되셨어도 일단 아래 코드를 복붙 해보세요.
 
-{% highlight html %}
-
-<script>
-
-let apple = 5;
-let banana = 10;
-let plate = apple + banana;
-
-alert (plate);
-
-</script>
-
-{% endhighlight %}
+<script async src="//jsfiddle.net/MeowPiE/my6nce32/embed/html,result/"></script>
 
 읭? 이게 뭐냐구요??
 
@@ -73,19 +61,7 @@ alert (plate);
 
 근데 그럴 시간은 없는데요 ㅠㅠ
 
-{% highlight html %}
-
-<script>
-
-var apple = 5;
-var banana = 10;
-var plate = apple + banana;
-
-alert (plate);
-
-</script>
-
-{% endhighlight %}
+<script async src="//jsfiddle.net/MeowPiE/sc2pbbbL/embed/html,result/"></script>
 
 이걸로 해보실래요?
 
