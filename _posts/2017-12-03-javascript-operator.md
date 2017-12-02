@@ -1,7 +1,7 @@
 ---
 title: "세상에서 제일 쉬운 자바스크립트 - 연산자"
 author: MeowPiE
-date: 2017-12-03 14:04
+date: 2017-12-03 15:04
 category: JavaScript
 tags: ['자바', '스크립트', 'JS', '가이드', '강의']
 image:
@@ -28,10 +28,15 @@ image:
 {% highlight javascript %}
 
 Math.pow(3,2);       // 9,   3의 2제곱
+
 Math.round(10.6);    // 11,  10.6을 반올림
+
 Math.ceil(10.2);     // 11,  10.2를 올림
+
 Math.floor(10.6);    // 10,  10.6을 내림
+
 Math.sqrt(9);        // 3,   9의 제곱근
+
 Math.random();       // 0부터 1.0 사이의 랜덤한 숫자
 
 {% endhighlight %}
