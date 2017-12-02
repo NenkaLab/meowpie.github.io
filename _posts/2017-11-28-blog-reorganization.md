@@ -2,7 +2,7 @@
 title: "블로그 글 관련 개편안내"
 author: MeowPiE
 date: 2017-11-28 10:30
-category: notice
+category: Notice
 tags: ['사이트', '블로그', '개편']
 image:
   path: https://raw.githubusercontent.com/MeowPiE/meowpie.github.io/master/assets/img/small_logo.png

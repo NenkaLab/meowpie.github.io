@@ -20,7 +20,7 @@ layout: default
               {% unless page.image.path %}
               <span class="card-title truncate">{{ page.title }}</span>
               {% endunless %}
-              <p style="font-weight: 600; margin-bottom: 10px;"><time datetime="{{ post.date }}">{{ page.date | date_to_string }}</time>{% if site.author.disqus %} | <a href="{{ url }}{{ page.url }}#disqus_thread" data-disqus-identifier="{{ page.id }}">Comment</a>{% endif %}</p>
+              <p style="font-weight: 600; margin-bottom: 10px;"><a href="{{ url }}/categories/">{{ page.categories }}</a> | <time datetime="{{ post.date }}">{{ page.date | date_to_string }}</time>{% if site.author.disqus %} | <a href="{{ url }}{{ page.url }}#disqus_thread" data-disqus-identifier="{{ page.id }}">Comment</a>{% endif %}</p>
               <div id="post-content">
                 {{ content | replace: "<img", "<img class='materialboxed'" }}
                 <p>읽어주셔서 감사합니다! 도움이 되셨다면 많이 공유해주세요 (^_^;)</p>
@@ -75,8 +75,16 @@ layout: default
         <article>
           <div class="card">
             <div class="card-content">
-              <span class="card-title">Recommended</span>
-              <p>준비중...</p>
+              <span class="card-title">Other Posts</span>
+              {% if page.next.url %}
+              <a class="btn-flat waves-effect waves-light deep-purple logo-font white-text" href="{{ page.next.url }}" style="border: 1px #fff solid;">{{ page.next.title }}</a>
+              {% endif %}
+              {% if page.previous.url %}
+              <a class="btn-flat waves-effect waves-light deep-purple logo-font white-text" href="{{ page.previous.url }}" style="border: 1px #fff solid;">{{ page.previous.title }}</a>
+              {% endif %}
+              {% if page.previous.previous.url %}
+              <a class="btn-flat waves-effect waves-light deep-purple logo-font white-text" href="{{ page.previous.previous.url }}" style="border: 1px #fff solid;">{{ page.previous.previous.title }}</a>
+              {% endif %}
             </div>
           </div>
         </article>

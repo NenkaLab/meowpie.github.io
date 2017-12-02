@@ -2,7 +2,7 @@
 title: "Jekyll 사이트 윈도우로 편하게 개발하자!"
 author: MeowPiE
 date: 2017-11-11 12:00
-category: github
+category: GitHub
 tags: ['깃허브', '페이지', '윈도우', '개발', '루비']
 image:
   path: https://raw.githubusercontent.com/MeowPiE/meowpie.github.io/master/assets/img/2017-11-11-jekyll-windows-install/ruby.png

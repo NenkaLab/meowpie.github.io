@@ -25,7 +25,7 @@ layout: default
         <a class="btn-flat btn-large waves-effect waves-light deep-purple logo-font white-text" href="{{ url }}/about/" style="border: 1px #fff solid; margin-right: 4px;">About</a>
         <a class="btn-flat btn-large waves-effect waves-light deep-purple logo-font white-text" href="{{ url }}/blog/" style="border: 1px #fff solid; margin-left: 4px;">Blog</a>
         <div style="margin-top: 32px;">
-          <a href="#latest-images"><i class="material-icons white-text" style="font-size: 36px;">keyboard_arrow_down</i></a>
+          <a href="#latest-posts"><i class="material-icons white-text" style="font-size: 36px;">keyboard_arrow_down</i></a>
         </div>
       </div>
     </div>
@@ -36,8 +36,8 @@ layout: default
   <div class="section">
     <div class="row">
       <div class="col s12">
-        <a class="btn-large waves-effect waves-dark deep-purple logo-font white-text" href="{{ url }}/notice/2017/11/28/blog-reorganization/" style="border: 1px #fff solid;">블로그 글 관련 개편안내</a>
-        <h4 class="deep-purple-text" id="latest-images">Latest Posts</h4>
+        <a class="btn-flat btn-large waves-effect waves-light deep-purple logo-font white-text" href="{{ url }}/notice/2017/11/28/blog-reorganization/" style="border: 1px #000 solid;">블로그 글 관련 개편안내</a>
+        <h4 class="deep-purple-text" id="latest-posts">Latest Posts</h4>
       </div>
       {% for post in site.posts %}
         {% if post.image.path %}

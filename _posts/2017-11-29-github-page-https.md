@@ -2,7 +2,7 @@
 title: "깃허브 페이지에 HTTPS 적용하기"
 author: MeowPiE
 date: 2017-11-29 06:22
-category: github
+category: GitHub
 tags: ['깃허브', '페이지', '보안', 'HTTPS']
 image:
   path: https://raw.githubusercontent.com/MeowPiE/meowpie.github.io/master/assets/img/github_page.png

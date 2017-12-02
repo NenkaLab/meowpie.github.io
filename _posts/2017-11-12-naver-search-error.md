@@ -2,7 +2,7 @@
 title: "네이버 검색 등록 오류?!"
 author: MeowPiE
 date: 2017-11-12 12:00
-category: site
+category: Site
 tags: ['웹마스터', '웹문서', '블로그', '사이트']
 image:
   path: https://raw.githubusercontent.com/MeowPiE/meowpie.github.io/master/assets/img/2017-11-12-naver-search-error/webmaster.png
