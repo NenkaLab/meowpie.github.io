@@ -11,7 +11,7 @@ image:
 
 마이크로소프트(MS)에서 새로운(?) 안드로이드용 홈화면 런처를 출시하였다!
 
-기존에는 화살런처(Arrow Launcher)였지만 이번 업데이트를 통해서 기능을 대폭 추가하고, 이름을 Microsoft Launcher로 수정한 수상한 버전(??).
+기존에는 화살런처(Arrow Launcher)였지만 이번 업데이트를 통해서 기능을 대폭 추가하고, 이름을 Microsoft Launcher로 수정한 수상한 버전(??)
 
 ## [플레이스토어 링크](https://play.google.com/store/apps/details?id=com.microsoft.launcher/)
 
@@ -23,7 +23,7 @@ image:
 
 ![첫 실행화면 마지막]({{ url }}/assets/img/2017-11-12-microsoft-launcher/firstrun3.png)
 
-이제 멋진 런처 화면을 보게된다! 예뻐요...... 기본기 잘됨.
+이제 멋진 런처 화면을 보게된다! 예뻐요......
 
 ![메인]({{ url }}/assets/img/2017-11-12-microsoft-launcher/main.png)
 
@@ -31,11 +31,11 @@ image:
 
 ![사이드메뉴]({{ url }}/assets/img/2017-11-12-microsoft-launcher/sidemenu.png)
 
-아래서 위로 올리는 제스처를 취하면(?) 아이폰처럼 컨트롤창이 나온다. 아직 완벽하지는 않은듯 빼액?
+아래서 위로 올리는 제스처를 취하면(?) 아이폰처럼 컨트롤창이 나옵니다. 아직 완벽하지는 않은듯 빼액?
 
 ![언더바]({{ url }}/assets/img/2017-11-12-microsoft-launcher/undermenu.png)
 
-폴더를 열었는데 블러가 스르륵~ 아이폰인가!!!! 짜...짝퉁인가.. ㅋㅋㅋㅌㅋ
+폴더를 열었는데 블러 효과가 있고요!
 
 ![폴더 열기]({{ url }}/assets/img/2017-11-12-microsoft-launcher/folder.png)
 
@@ -47,4 +47,4 @@ image:
 
 ![설정]({{ url }}/assets/img/2017-11-12-microsoft-launcher/settings.png)
 
-제 네이버 블로그에서 가져오면서 내용을 다 수정했네요 ㅎㅎ
+위 이미지는 잡다한 설정입니다.(이 글쓰고 바로 픽셀2 런처로 바꾼건 기분탓.)

@@ -3,7 +3,7 @@ title: "세상에서 제일 쉬운 자바스크립트"
 author: MeowPiE
 date: 2017-12-02 10:17
 category: JavaScript
-tags: ['자바', '스크립트', 'JS', '가이드', '강의', '시작']
+tags: ['자바', '스크립트', 'JS', '가이드', '강의']
 image:
   path: https://raw.githubusercontent.com/MeowPiE/meowpie.github.io/master/assets/img/javascript/guide_logo.jpg
   copyright: Worth of Web
