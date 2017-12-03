@@ -21,15 +21,31 @@ end
 
 {% endhighlight %}
 
+---
+
+```ruby
+def foo
+  puts 'foo'
+end
+```
+
 # 자바 코드
 
 {% highlight java %}
 
 int number;
 number = 30;
-return;
+System.out.println(number);
 
 {% endhighlight %}
+
+---
+
+```java
+int number;
+number = 30;
+System.out.println(number);
+```
 
 # 자바스크립트 코드
 
@@ -40,6 +56,14 @@ test = 30;
 return;
 
 {% endhighlight %}
+
+---
+
+```javascript
+var test;
+test = 30;
+return;
+```
 
 # 사용법?
 
@@ -54,5 +78,17 @@ return;
 {% endhighlight %}
 
 줄바꿈 필수
+{% endraw %}
+```
+
+---
+
+```
+{% raw %}
+
+```javascript
+// 코드 입력
+```
+
 {% endraw %}
 ```
