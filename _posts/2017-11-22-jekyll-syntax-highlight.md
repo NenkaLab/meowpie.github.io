@@ -67,17 +67,15 @@ return;
 
 # 사용법?
 
-```
-줄 바꿈 필수
 {% raw %}
+```
 {% highlight javascript %}
 
 // 코드 입력
 
 {% endhighlight %}
-{% endraw %}
-줄바꿈 필수
 ```
+{% endraw %}
 
 ---
 
