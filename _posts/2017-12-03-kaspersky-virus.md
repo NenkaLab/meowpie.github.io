@@ -2,7 +2,7 @@
 title: "무서운 바이러스 55개 검출!"
 author: MeowPiE
 date: 2017-12-03 12:34
-category: JavaScript
+category: IT
 tags: ['카스퍼스키', '백신', '바이러스']
 image:
   path: https://raw.githubusercontent.com/MeowPiE/meowpie.github.io/master/assets/img/2017-12-03-kaspersky-virus/kaspersky-logo.jpg
