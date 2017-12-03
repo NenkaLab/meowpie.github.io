@@ -1,7 +1,7 @@
 ---
 title: "세상에서 제일 쉬운 자바스크립트 - 언어와 친해지기"
 author: MeowPiE
-date: 2017-12-03 14:13
+date: 2017-12-03 02:13
 category: JavaScript
 tags: ['자바', '스크립트', 'JS', '가이드', '강의']
 image:
