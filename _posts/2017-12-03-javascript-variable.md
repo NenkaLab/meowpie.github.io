@@ -38,7 +38,19 @@ X에 3이 들어있고 Y에 2가 들어있으니까요 ㅎ
 이해가 좀 되셨...나요?
 
 안되셨어도 일단 아래 코드를 복붙 해보세요.
-<script async src="//jsfiddle.net/MeowPiE/my6nce32/embed/html,result/"></script>
+
+```html
+<script>
+
+let apple = 5;
+let banana = 10;
+let plate = apple + banana;
+
+alert(plate);
+
+</script>
+```
+
 읭? 이게 뭐냐구요??
 
 사과랑 바나나.... 그릇......
@@ -58,7 +70,19 @@ X에 3이 들어있고 Y에 2가 들어있으니까요 ㅎ
 브라우저를 업데이트 하시거나 크롬 브라우저를 설치해주세요!
 
 근데 그럴 시간은 없는데요 ㅠㅠ
-<script async src="//jsfiddle.net/MeowPiE/sc2pbbbL/embed/html,result/"></script>
+
+```html
+<script>
+
+var apple = 5;
+var banana = 10;
+var plate = apple + banana;
+
+alert(plate);
+
+</script>
+```
+
 이걸로 해보실래요?
 
 아마도 잘 되실겁니다 ㅎ
