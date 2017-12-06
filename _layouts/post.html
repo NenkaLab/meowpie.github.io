@@ -103,6 +103,18 @@ layout: default
       </div>
       {% endif %}
       <div class="col s12">
+        <article>
+          <div class="card">
+            <div class="card-content">
+              <span class="card-title">See Also...</span>
+              {% for post in site.posts limit:3 %}
+              <a class="btn-flat waves-effect waves-light deep-purple logo-font white-text" href="{{ post.url }}" style="border: 1px #fff solid;">{{ post.title }}</a>
+              {% endfor %}
+            </div>
+          </div>
+        </article>
+      </div>
+      <div class="col s12">
         {% if page.next %}
         <div class="left">
           <a class="btn-floating waves-effect waves-light white" href="{{ url }}{{ page.next.url }}"><i class="material-icons" style="color: rgba(0,0,0,.87);">arrow_back</i></a>
