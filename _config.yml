@@ -42,6 +42,10 @@ defaults:
 
 plugins:
   - jekyll-sitemap
+  - jekyll-feed
+
+feed:
+  path: atom.xml
 
 kramdown:
   input: GFM
