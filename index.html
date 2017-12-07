@@ -36,10 +36,14 @@ layout: default
   <div class="section">
     <div class="row">
       <div class="col s12">
-        <a class="btn-flat btn-large waves-effect waves-light deep-purple logo-font white-text" href="{{ url }}/notice/2017/11/28/blog-reorganization/" style="border: 1px #000 solid;">블로그 글 관련 개편안내</a>
+        {% for post in site.posts limit:10 %}
+        {% if post.category == "Notice" %}
+        <a class="btn-flat btn-large waves-effect waves-light deep-purple logo-font white-text" href="{{ url }}{{ post.url }}" style="border: 1px #fff solid;">{{ post.title }}</a>
+        {% endif %}
+        {% endfor %}
         <h4 class="deep-purple-text logo-font" id="latest-posts">Latest Posts</h4>
       </div>
-      {% for post in site.posts %}
+      {% for post in site.posts limit:10 %}
         {% if post.image.path %}
         <div class="col s12 m6">
           <article>
@@ -68,6 +72,11 @@ layout: default
         </div>
         {% endif %}
       {% endfor %}
+      <div class="col s12">
+        <span style="float:right">
+          <a class="btn-flat waves-effect waves-light deep-purple logo-font white-text" href="{{ url }}/blog" style="border: 1px #fff solid;">더보기</a>
+        </span>
+      </div>
     </div>
   </div>
 </div>
