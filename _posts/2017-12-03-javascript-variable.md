@@ -5,7 +5,7 @@ date: 2017-12-03 03:58
 category: JavaScript
 tags: ['자바', '스크립트', 'JS', '가이드', '강의']
 image:
-  path: https://raw.githubusercontent.com/MeowPiE/meowpie.github.io/master/assets/img/javascript/guide_logo.jpg
+  path: /assets/img/javascript/guide_logo.jpg
   copyright: Worth of Web
 ---
 
@@ -97,7 +97,7 @@ alert(plate);
 
 `LET` 과 `VAR` 의 차이점 :
 
-```
+```text
 - VAR 는 한 함수(지금은 몰라도 됩니다)안에서 실행된다.
 - LET 은 한 블록(괄호)안에서 실행된다.
 

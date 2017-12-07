@@ -5,7 +5,7 @@ date: 2017-11-15 12:00
 category: Site
 tags: ['사이트', '커스텀', '주소', '도메인', '무료']
 image:
-  path: https://raw.githubusercontent.com/MeowPiE/meowpie.github.io/master/assets/img/blog.jpg
+  path: /assets/img/blog.jpg
   copyright: Google
 ---
 
@@ -27,17 +27,17 @@ image:
 
 이 국가들은 인터넷 환경이 좋지 않은 국가들에게 국제 인터넷 협회의 허가를 동해서 국가 최상위 도메인을 사용자들이 무료로 얻고, 광고 등으로 얻은 수입으로 각 국가들의 IT 발전을 위해 사용한다고 하네요...
 
-![도메인 사용가능 여부 체크]({{ url }}/assets/img/2017-11-15-use-free-domain/freenom_domain_check.png)
+![도메인 사용가능 여부 체크](/assets/img/2017-11-15-use-free-domain/freenom_domain_check.png)
 
 사이트에 들어가서 회원가입후에 새 도메인 메뉴에 들어가면 위 처럼 원하는 주소를 검색해서 등록할 수 있습니다.(나중에 도메인을 고르고 나서도 가입가능.)
 
-![체크아웃 결제화면]({{ url }}/assets/img/2017-11-15-use-free-domain/checkout.png)
+![체크아웃 결제화면](/assets/img/2017-11-15-use-free-domain/checkout.png)
 
 이제 결제를 진행하는데 원하는 개월을 선택하고 확인하면 됩니다.
 
 2주전에 추가 연장이 가능하니 1년이라고 걱정 하지 마세요^^
 
-![관리화면]({{ url }}/assets/img/2017-11-15-use-free-domain/managing.png)
+![관리화면](/assets/img/2017-11-15-use-free-domain/managing.png)
 
 위 이미지는 도메인 관리 화면인데요, 간단하게 DNS 설정을 통해서 도메인 등록이 가능하고, 웹포워딩, 리다이렉트 등의 기능도 제공합니다.
 

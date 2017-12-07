@@ -5,7 +5,7 @@ date: 2017-11-11 12:00
 category: GitHub
 tags: ['깃허브', '페이지', '윈도우', '개발', '루비']
 image:
-  path: https://raw.githubusercontent.com/MeowPiE/meowpie.github.io/master/assets/img/2017-11-11-jekyll-windows-install/ruby.png
+  path: /assets/img/2017-11-11-jekyll-windows-install/ruby.png
   copyright: PixaBay
 ---
 
@@ -21,7 +21,7 @@ image:
 
 지금 쓰는 아톰 에디터 환경. (기본 환경인건 안비밀)
 
-![아톰 에디터]({{ url }}/assets/img/2017-11-11-jekyll-windows-install/atom_editer.png)
+![아톰 에디터](/assets/img/2017-11-11-jekyll-windows-install/atom_editer.png)
 
 옆에 프로젝트 창이있어서 바로바로 관리가 가능하고 마크다운 포맷이 지원되는 가벼운 에디터라 할 수 있습니다^^
 
@@ -51,7 +51,7 @@ image:
 
 이제 프로그램중에 `Start Command Prompt with Ruby` 를 눌러 실행한다음,
 
-```
+```text
 gem install jekyll
 ```
 
@@ -63,7 +63,7 @@ gem install jekyll
 
 이제 실행을...!
 
-```
+```text
 jekyll serve
 ```
 
@@ -73,7 +73,7 @@ jekyll serve
 
 이 경우에는 오류 내용이 나오는데요,
 
-```
+```text
 gem install jekyll-feed
 
 gem install jekyll-sitemap
@@ -85,7 +85,7 @@ gem install tzinfo-data
 
 참고로 [누군가의 티스토리 - hurderella.tistory.com/131/](http://hurderella.tistory.com/131/) 에서는
 
-```
+```text
 gem install bundler
 ```
 
@@ -93,18 +93,15 @@ gem install bundler
 
 이제 다시 `jekyll serve` 해보면
 
-```
-C:\Users\MeowPiE\Documents\GitHub\meowpie.github.io>jekyll serve
+```text
 Configuration file: C:/Users/MeowPiE/Documents/GitHub/meowpie.github.io/_config.yml
-       Deprecation: You appear to have pagination turned on, but you haven't included the `jekyll-paginate` gem. Ensure you have `plugins: [jekyll-paginate]` in your configuration file.
-            Source: C:/Users/MeowPiE/Documents/GitHub/meowpie.github.io
-       Destination: C:/Users/MeowPiE/Documents/GitHub/meowpie.github.io/_site
- Incremental build: disabled. Enable with --incremental
-      Generating...
-                    done in 1.535 seconds.
-  Please add the following to your Gemfile to avoid polling for changes:
-    gem 'wdm', '>= 0.1.0' if Gem.win_platform?
- Auto-regeneration: enabled for 'C:/Users/MeowPiE/Documents/GitHub/meowpie.github.io'
+  Deprecation: You appear to have pagination turned on, but you haven't included the `jekyll-paginate` gem. Ensure you have `plugins: [jekyll-paginate]` in your configuration file.
+    Source: C:/Users/MeowPiE/Documents/GitHub/meowpie.github.io
+    Destination: C:/Users/MeowPiE/Documents/GitHub/meowpie.github.io/_site
+  Incremental build: disabled. Enable with --incremental
+    Generating... done in 1.535 seconds.
+  Please add the following to your Gemfile to avoid polling for changes: gem 'wdm', '>= 0.1.0' if Gem.win_platform?
+  Auto-regeneration: enabled for 'C:/Users/MeowPiE/Documents/GitHub/meowpie.github.io'
     Server address: http://127.0.0.1:4000
   Server running... press ctrl-c to stop.
 ```
@@ -113,7 +110,7 @@ Configuration file: C:/Users/MeowPiE/Documents/GitHub/meowpie.github.io/_config.
 
 경고가 뜨는건 기분탓이겠죠...
 
-간단하게 어느 브라우저나 `http://localhost:4000/` 에 접속하면 자신의 블로그를 로컬에서 볼 수 있게되는!!
+간단하게 어느 브라우저나 `http://127.0.0.1:4000` 또는 `http://localhost:4000/` 에 접속하면 자신의 블로그를 로컬에서 볼 수 있게되는!!
 
 만약에 뭔가가 짤려서 나온다면 고정 주소를 `{% raw %}{{ url }}{{ page.url }}{% endraw %}` 로 변경하여 사용하기!
 

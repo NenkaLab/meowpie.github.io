@@ -5,7 +5,7 @@ date: 2017-11-13 12:00
 category: Notice
 tags: ['사이트', '블로그', '접속', '익스', 'IE']
 image:
-  path: https://raw.githubusercontent.com/MeowPiE/meowpie.github.io/master/assets/img/cutecat.jpg
+  path: /assets/img/cutecat.jpg
   copyright: Google
 ---
 

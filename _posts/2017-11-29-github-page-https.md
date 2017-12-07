@@ -5,7 +5,7 @@ date: 2017-11-29 06:22
 category: GitHub
 tags: ['깃허브', '페이지', '보안', 'HTTPS']
 image:
-  path: https://raw.githubusercontent.com/MeowPiE/meowpie.github.io/master/assets/img/github_page.png
+  path: /assets/img/github_page.png
   copyright: GitHub
 ---
 
@@ -15,7 +15,7 @@ image:
 
 혹시, 이런거 겪어보신적 있으신가요?
 
-![인터넷익스플로러 인증서 오류]({{ url }}/assets/img/2017-11-29-github-page-https/certificate_error_ie.png)
+![인터넷익스플로러 인증서 오류](/assets/img/2017-11-29-github-page-https/certificate_error_ie.png)
 
 몇년 전만해도 여러 사이트들에 접속할 떄에 이런 경고문을 보는일이 흔했습니다...
 
@@ -23,7 +23,7 @@ image:
 
 지금 자신의 깃허브 페이지에 아무 설정없이 `https://` 를 추가해서 접속하면 아래와 비슷한 창이 나올 것입니다.
 
-![깃허브 페이지 인증서 오류]({{ url }}/assets/img/2017-11-29-github-page-https/github_certificate_error.png)
+![깃허브 페이지 인증서 오류](/assets/img/2017-11-29-github-page-https/github_certificate_error.png)
 
 빼애애액? `github.com` 이랑 `github.io` 만 유효해???? 그러고 보면 기본 주소인 `username.github.io` 를 쓰는 분들은 HTTPS를 잘 쓰고 계시더라;;
 
@@ -47,7 +47,7 @@ image:
 
 먼저 `Cloudflare` 에 가입합니다. 인증이 있었는지는 모르겠지만 사이트랑 관리해야 하고 등등... 임시메일 이런거 쓰지맙시다 ㅋ
 
-![회원가입](https://raw.githubusercontent.com/MeowPiE/meowpie.github.io/master/assets/img/2017-11-29-github-page-https/cloudflare_signup.png)
+![회원가입](/assets/img/2017-11-29-github-page-https/cloudflare_signup.png)
 
 ## [Cloudflare](https://www.cloudflare.com/a/sign-up/)
 
@@ -63,7 +63,7 @@ image:
 
 한 1시간 기다리면 활성화되어서 아래처럼됩니다.(설명에는 24시간? 까지도...)
 
-![메인화면](https://raw.githubusercontent.com/MeowPiE/meowpie.github.io/master/assets/img/2017-11-29-github-page-https/overview.png)
+![메인화면](/assets/img/2017-11-29-github-page-https/overview.png)
 
 (그렇다! 파이어폭스 캡쳐의 오류로 이상한 바가 튀어나온것이다!)
 
@@ -73,6 +73,14 @@ image:
 
 관리 페이지에서 `Crypto` 에 들어가서 쭈욱 스크롤을 하면...
 
-![메인화면](https://raw.githubusercontent.com/MeowPiE/meowpie.github.io/master/assets/img/2017-11-29-github-page-https/always.png)
+![메인화면](/assets/img/2017-11-29-github-page-https/always.png)
 
 짠! 이것만 활성화하면 끝!!
+
+---
+
+2017-12-07 추가 :
+
+지금 새로운 사이트를 등록하니 약 3시간 만에 등록이 완료되었습니다.
+
+이 결과로는 인증서 등록이 사용자마다 복불복으로 적용 시간이 다를 수 있다는게 아닐까요 ㅎ

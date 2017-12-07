@@ -5,7 +5,7 @@ date: 2017-12-03 02:13
 category: JavaScript
 tags: ['자바', '스크립트', 'JS', '가이드', '강의']
 image:
-  path: https://raw.githubusercontent.com/MeowPiE/meowpie.github.io/master/assets/img/javascript/guide_logo.jpg
+  path: /assets/img/javascript/guide_logo.jpg
   copyright: Worth of Web
 ---
 
@@ -21,7 +21,7 @@ image:
 
 참고로 윈도우는 기본적으로 메모장이 있습니다.
 
-![메모장]({{ url }}/assets/img/javascript/notepad.png)
+![메모장](/assets/img/javascript/notepad.png)
 
 요게 메모장인건 아시죠?
 
@@ -63,7 +63,7 @@ alert는 번역하면 `알림, 경보` 라는 뜻이에요.
 
 `자바스크립트` 는 `C언어` 라고하는 초창기 언어에 기반을 두어서,
 
-```
+```text
 기능이름(실행내용);
 ```
 
@@ -93,15 +93,15 @@ alert('Hello, World!');
 
 메모장을 기준으로 이렇게 저장하세요.
 
-![파일저장]({{ url }}/assets/img/javascript/savefile.png)
+![파일저장](/assets/img/javascript/savefile.png)
 
 꼭!! 인코딩 형식을 `UTF-8`로 설정하세요!! 안그러면... 뿱쌯꽭!
 
 파일을 더블 클릭해서 실행하면......
 
-![알림창]({{ url }}/assets/img/javascript/helloworld_ie.png)
+![알림창](/assets/img/javascript/helloworld_ie.png)
 
-![알림창2]({{ url }}/assets/img/javascript/helloworld.png)
+![알림창2](/assets/img/javascript/helloworld.png)
 
 꺄아~~ 우리의 첫 자바스크립트 프로그램이 완성되었어요!
 

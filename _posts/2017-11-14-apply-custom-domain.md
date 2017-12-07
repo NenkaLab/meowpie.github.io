@@ -5,7 +5,7 @@ date: 2017-11-14 12:00
 category: Site
 tags: ['사이트', '블로그', '커스텀', '주소', '도메인']
 image:
-  path: https://raw.githubusercontent.com/MeowPiE/meowpie.github.io/master/assets/img/blog.jpg
+  path: /assets/img/blog.jpg
   copyright: Google
 ---
 
@@ -13,23 +13,23 @@ image:
 
 대부분의 블로그들은 블로그 소속에 따라서 기본 이름이 적용되어있죠.
 
-```
+```text
 네이버 블로그 :
 http://blog.naver.com/userid/
 http://userid.blog.me/
 ```
 
-```
+```text
 티스토리 블로그 :
 http://blogname.tistory.com/
 ```
 
-```
+```text
 다음 블로그 :
 http://blog.daum.net/userid/
 ```
 
-```
+```text
 구글 블로그(블로거) :
 http://blogname.blogspot.com/
 ```
@@ -72,7 +72,7 @@ http://blogname.blogspot.com/
 
 먼저, 네이버 블로그의 관리창에 들어가줍니다.
 
-![네이버 블로그 도메인 관리]({{ url }}/assets/img/2017-11-14-apply-custom-domain/naver_domain.png)
+![네이버 블로그 도메인 관리](/assets/img/2017-11-14-apply-custom-domain/naver_domain.png)
 
 지금은 커스텀 도메인에 무작정 도메인을 입력하고 확인을 누른다고 적용이 되지 않고, "네임 서버 설정 값을 입력하지 않았거나, 설정 내용이 아직 충분히 전파되지 않았습니다.
 네임 서버 설정값이 적용 완료되기 까지는 다소 시간이 걸릴 수도 있으니, 약 1,2시간 후 다시 확인을 부탁드립니다." 라는 문구만 튀어나와요 ㅠㅠ
@@ -89,7 +89,7 @@ http://blogname.blogspot.com/
 
 티스토리는 가이드 글에 들어가보면 잘 모르겠다는 분들이 많네요..크흡
 
-![티스토리 블로그 도메인 관리]({{ url }}/assets/img/2017-11-14-apply-custom-domain/tistory_domain.png)
+![티스토리 블로그 도메인 관리](/assets/img/2017-11-14-apply-custom-domain/tistory_domain.png)
 
 티스토리 관리자 개편으로 예뻐지기는 했는데... 아무튼
 
@@ -107,7 +107,7 @@ CNAME 레코드가 없을때에는 A 레코드에 27.0.236.139 IP 주소를 기�
 
 DNS 서비스가 없다면 [DNSever](https://kr.dnsever.com/) 에 회원가입해서 등록하면됩니다.(HTTPS를 꼭 사용하셔야 한다면 Cloudflare 사용도 고려해 보세요 ㅎ)
 
-![Freenom 도메인 DNS]({{ url }}/assets/img/2017-11-14-apply-custom-domain/freenom_dns.png)
+![Freenom 도메인 DNS](/assets/img/2017-11-14-apply-custom-domain/freenom_dns.png)
 
 Freenom 사이트의 DNS 관리 도구를 봅시다.
 

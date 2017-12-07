@@ -5,7 +5,7 @@ date: 2017-12-03 12:34
 category: IT
 tags: ['카스퍼스키', '백신', '바이러스']
 image:
-  path: https://raw.githubusercontent.com/MeowPiE/meowpie.github.io/master/assets/img/2017-12-03-kaspersky-virus/kaspersky-logo.jpg
+  path: /assets/img/2017-12-03-kaspersky-virus/kaspersky-logo.jpg
   copyright: Kaspersky Lab
 ---
 
@@ -43,9 +43,9 @@ V3와 알약 같은 국산 백신은 멀찌감치 제 순위에서 떨어진 상
 
 아래는 오늘 전체 검사를 끝낸 성과입니다 ㅋㅋ
 
-![바이바이바이러스]({{ url }}/assets/img/2017-12-03-kaspersky-virus/virus.png)
+![바이바이바이러스](/assets/img/2017-12-03-kaspersky-virus/virus.png)
 
-![히잌! 악마들!]({{ url }}/assets/img/2017-12-03-kaspersky-virus/result.png)
+![히잌! 악마들!](/assets/img/2017-12-03-kaspersky-virus/result.png)
 
 여러분, 컴터에 백신 하나정도 마련해봅시다...!
 

@@ -5,7 +5,7 @@ date: 2017-11-22 12:00
 category: GitHub
 tags: ['깃허브', '페이지', '지킬', '코딩', '하이라이트']
 image:
-  path: https://raw.githubusercontent.com/MeowPiE/meowpie.github.io/master/assets/img/octocat.png
+  path: /assets/img/octocat.png
   copyright: GitHub
 ---
 
@@ -68,7 +68,7 @@ return;
 # 사용법?
 
 {% raw %}
-```
+```text
 {% highlight javascript %}
 
 // 코드 입력
@@ -79,9 +79,9 @@ return;
 
 ---
 
-```
+```text
 ```javascript
 // 코드 입력
 ```
 
-두번째가 안정적인 듯합니다.
+방법은 두번째가 안정적인 듯합니다. 전 왜 위 방법은 줄바꿈이 안되는걸까요...

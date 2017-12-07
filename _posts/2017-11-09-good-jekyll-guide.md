@@ -5,7 +5,7 @@ date: 2017-11-09 12:00
 category: GitHub
 tags: ['깃허브', '페이지', '지킬', '가이드']
 image:
-  path: https://raw.githubusercontent.com/MeowPiE/meowpie.github.io/master/assets/img/jekyll_logo.png
+  path: /assets/img/jekyll_logo.png
   copyright: Jekyll
 ---
 
@@ -19,6 +19,6 @@ image:
 
 ## [지킬 공식 사이트 한국어 번역판](http://jekyllrb-ko.github.io/docs/home/)
 
-![홈 화면]({{ url }}/assets/img/2017-11-09-good-jekyll-guide/home.png)
+![홈 화면](/assets/img/2017-11-09-good-jekyll-guide/home.png)
 
-![포스트 작성 가이드]({{ url }}/assets/img/2017-11-09-good-jekyll-guide/post.png)
+![포스트 작성 가이드](/assets/img/2017-11-09-good-jekyll-guide/post.png)

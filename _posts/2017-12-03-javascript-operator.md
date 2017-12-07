@@ -5,7 +5,7 @@ date: 2017-12-03 03:40
 category: JavaScript
 tags: ['자바', '스크립트', 'JS', '가이드', '강의']
 image:
-  path: https://raw.githubusercontent.com/MeowPiE/meowpie.github.io/master/assets/img/javascript/guide_logo.jpg
+  path: /assets/img/javascript/guide_logo.jpg
   copyright: Worth of Web
 ---
 
@@ -16,7 +16,7 @@ image:
 한번 살펴볼까요?
 
 | 연산 | 수학 | 자바스크립트 |
-|:-:|:-:|:-:|
+|:---:|:---:|:---:|
 | 덧셈 | + | + |
 | 뺄셈 | - | - |
 | 곱셈 | X | * |

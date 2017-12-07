@@ -5,7 +5,7 @@ date: 2017-11-21 12:00
 category: GitHub
 tags: ['깃허브', '윈도우', '데스크탑', '프로그램']
 image:
-  path: https://raw.githubusercontent.com/MeowPiE/meowpie.github.io/master/assets/img/octocat.png
+  path: /assets/img/octocat.png
   copyright: GitHub
 ---
 
@@ -13,12 +13,12 @@ image:
 
 [깃허브 데스크탑](https://desktop.github.com/) 설치되는게 아주 빨라지고 아톰 에디터 같은 화면이 나오네요(?) ㅋㅋ
 
-![깃허브 데스크탑 사이트]({{ url }}/assets/img/2017-11-21-github-desktop/github_desktop.png)
+![깃허브 데스크탑 사이트](/assets/img/2017-11-21-github-desktop/github_desktop.png)
 
 예전에는 요렇게 생겼었는데 ㅋㅋㅋ
 
-![옛날 깃허브 데스크탑]({{ url }}/assets/img/2017-11-21-github-desktop/old_version.png)
+![옛날 깃허브 데스크탑](/assets/img/2017-11-21-github-desktop/old_version.png)
 
 지금은 아래처럼 디자인이 바뀌었고, 뭔가 불편하지만 멋지니 그냥 적응합시다!
 
-![지금 깃허브 데스크탑]({{ url }}/assets/img/2017-11-21-github-desktop/new_version.png)
+![지금 깃허브 데스크탑](/assets/img/2017-11-21-github-desktop/new_version.png)

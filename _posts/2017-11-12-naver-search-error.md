@@ -5,7 +5,7 @@ date: 2017-11-12 12:00
 category: Site
 tags: ['웹마스터', '웹문서', '블로그', '사이트']
 image:
-  path: https://raw.githubusercontent.com/MeowPiE/meowpie.github.io/master/assets/img/2017-11-12-naver-search-error/webmaster.png
+  path: /assets/img/2017-11-12-naver-search-error/webmaster.png
   copyright: MeowPiE
 ---
 
@@ -13,7 +13,7 @@ image:
 
 제가 사이트 오류를 수정하고 로고를 등록해서 그러려니 했는데, 저녁이 되도 뭔가 이상하네요;;
 
-![웹문서 / 블로그 중복]({{ url }}/assets/img/2017-11-12-naver-search-error/naver_search.png)
+![웹문서 / 블로그 중복](/assets/img/2017-11-12-naver-search-error/naver_search.png)
 
 전에 쓴 글들은 웹문서에 남아있고 새로쓴 `Jekyll 윈도우로 편하게 개발하기` 글만 블로그에 노출이 됩니다...
 

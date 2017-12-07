@@ -5,7 +5,7 @@ date: 2017-11-08 12:00
 category: GitHub
 tags: ['깃허브', '페이지', '사이트']
 image:
-  path: https://raw.githubusercontent.com/MeowPiE/meowpie.github.io/master/assets/img/github_page.png
+  path: /assets/img/github_page.png
   copyright: GitHub
 ---
 
@@ -19,13 +19,13 @@ image:
 
 깃허브에 가입합니다. 이메일 인증은 잊지 말고 꼭 진행해야 됩니다. 깃허브는 전세계적으로 유명한 코드 공유 커뮤니티(?)이니 가입해서 나쁠건 없을 것 같네요^^
 
-![가입창]({{ url }}/assets/img/2017-11-08-create-github-page/github_signup.png)
+![가입창](/assets/img/2017-11-08-create-github-page/github_signup.png)
 
 간단한 인증과 설정을 거치면 자신의 프로필과 개발 공간을 볼 수 있습니다.
 
 영문 공식 내용은 [깃허브 페이지](https://pages.github.com/) 를 참고하시고, 모르는 것들은 구글에 검색하면 친절하게 알려줍니다 ㅋ
 
-```
+```text
 검색 팁 :
 1. 영어를 한다면 영문으로 검색하는게 효과적
 2. Jekyll과 GitHub Page같이 영문 검색어 이용하기(효과는 잘 모름;;)
@@ -84,7 +84,7 @@ image:
 
 10분을 기다려도 사이트가 생성되지 않아요!
 
-```
+```text
 1. 과정이 잘못된 경우 - 만드는법 숙지
 2. 포크로 찍어와서 만드신경우 - 여기서 나오는대로 만들어보세요.
 3. 컴파일에 오류가 있는경우(가입떄 사용한 이메일로 경고 메일이 오며 설정에 사이트 빌드에 실패했다는 경고가 뜹니다) - 다시 만들어 보시거나 테마를 변경해보세요.
@@ -117,7 +117,7 @@ image:
 
 (Jekyll에는 `YAML Front Matter` 라는 파일의 형식을 알려주는 양식이 필요합니다.)
 
-```
+```yaml
 ---
 layout: post
 title: Blogging Like a Hacker

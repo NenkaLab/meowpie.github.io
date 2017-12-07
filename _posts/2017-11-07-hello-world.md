@@ -5,7 +5,7 @@ date: 2017-11-07 12:00
 category: Notice
 tags: ['깃허브', '페이지', '블로그', '시작']
 image:
-  path: https://raw.githubusercontent.com/MeowPiE/meowpie.github.io/master/assets/img/logo.png
+  path: /assets/img/logo.png
   copyright: MeowPiE
 ---
 
