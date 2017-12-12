@@ -25,7 +25,7 @@ image:
 
 이제 멋진 런처 화면을 보게된다! 예뻐요......
 
-![메인](assets/img/2017-11-12-microsoft-launcher/main.png)
+![메인](/assets/img/2017-11-12-microsoft-launcher/main.png)
 
 왼쪽으로 스와이프하면 나오는 마소계정 연동 알림창.
 
