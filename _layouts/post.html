@@ -21,6 +21,26 @@ layout: default
               <span class="card-title truncate">{{ page.title }}</span>
               {% endunless %}
               <p style="font-weight: 600; margin-bottom: 10px;"><a href="{{ url }}/categories/">{{ page.categories }}</a> | <time datetime="{{ post.date }}">{{ page.date | date_to_string }}</time>{% if site.author.disqus %} | <a href="{{ url }}{{ page.url }}#disqus_thread" data-disqus-identifier="{{ page.id }}">Comment</a>{% endif %}</p>
+              <!-- AddToAny BEGIN -->
+              <div class="a2a_kit a2a_kit_size_32 a2a_default_style">
+                <a class="a2a_button_google_plus"></a>
+                <a class="a2a_button_facebook"></a>
+                <a class="a2a_button_twitter"></a>
+                <a class="a2a_button_kakao"></a>
+                <a class="a2a_button_telegram"></a>
+                <a class="a2a_button_email"></a>
+                <a class="a2a_button_copy_link"></a>
+                <a class="a2a_dd" href="https://www.addtoany.com/share"></a>
+              </div>
+              <script>
+                var a2a_config = a2a_config || {};
+                a2a_config.linkname = "{{ site.title }} | {{ page.title }}";
+                a2a_config.linkurl = "{{ url }}{{ page.url }}";
+                a2a_config.locale = "ko";
+              </script>
+              <script async src="https://static.addtoany.com/menu/page.js"></script>
+              <!-- AddToAny END -->
+              <div class="divider" style="margin: 16px 0;"></div>
               <div id="post-content">
                 {{ content | replace: "<img", "<img class='materialboxed'" }}
                 <p>읽어주셔서 감사합니다! 도움이 되셨다면 많이 공유해주세요 (^_^;)</p>
@@ -47,26 +67,6 @@ layout: default
               {% for tag in page.tags %}
                 <div class="chip">{{ tag }}</div>
               {% endfor %}
-              <div class="divider" style="margin: 16px 0;"></div>
-              <!-- AddToAny BEGIN -->
-              <div class="a2a_kit a2a_kit_size_32 a2a_default_style">
-                <a class="a2a_button_google_plus"></a>
-                <a class="a2a_button_facebook"></a>
-                <a class="a2a_button_twitter"></a>
-                <a class="a2a_button_kakao"></a>
-                <a class="a2a_button_telegram"></a>
-                <a class="a2a_button_email"></a>
-                <a class="a2a_button_copy_link"></a>
-                <a class="a2a_dd" href="https://www.addtoany.com/share"></a>
-              </div>
-              <script>
-                var a2a_config = a2a_config || {};
-                a2a_config.linkname = "{{ site.title }} | {{ page.title }}";
-                a2a_config.linkurl = "{{ url }}{{ page.url }}";
-                a2a_config.locale = "ko";
-              </script>
-              <script async src="https://static.addtoany.com/menu/page.js"></script>
-              <!-- AddToAny END -->
             </div>
           </div>
         </article>
