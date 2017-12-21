@@ -199,5 +199,3 @@ function response(room, msg, sender, isGroupChat, replier) {
 아래 링크를 이용해 주세요~
 
 ## [KakaoBot Lab](https://open.kakao.com/o/gjulyRD)
-
-읽어주셔서 감사합니다!

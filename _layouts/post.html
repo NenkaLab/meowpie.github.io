@@ -10,6 +10,21 @@ layout: default
       <div class="col s12">
         <article>
           <div class="card">
+            <div class="card-content" style="color:#fff; background-color:#e51c23">
+              <span class="card-title">Notice</span>
+              {% for post in site.posts %}
+              {% if post.category == "Notice" %}
+              <h3><a class="fa fa-angellist white-text" href="{{ url }}{{ post.url }}"> {{ post.title }}</a></h3>
+              {% break %}
+              {% endif %}
+              {% endfor %}
+            </div>
+          </div>
+        </article>
+      </div>
+      <div class="col s12">
+        <article>
+          <div class="card">
             {% if page.image.path %}
             <div class="card-image">
               <img class="materialboxed" data-caption="© {{ page.image.copyright }}" src="{{ page.image.path }}">
@@ -28,7 +43,6 @@ layout: default
                 <a class="a2a_button_twitter"></a>
                 <a class="a2a_button_kakao"></a>
                 <a class="a2a_button_telegram"></a>
-                <a class="a2a_button_email"></a>
                 <a class="a2a_button_copy_link"></a>
                 <a class="a2a_dd" href="https://www.addtoany.com/share"></a>
               </div>
@@ -71,24 +85,6 @@ layout: default
           </div>
         </article>
       </div>
-      <div class="col s12">
-        <article>
-          <div class="card">
-            <div class="card-content">
-              <span class="card-title">Other Posts</span>
-              {% if page.next.url %}
-              <a class="btn-flat waves-effect waves-light deep-purple logo-font white-text" href="{{ page.next.url }}" style="border: 1px #fff solid;">{{ page.next.title }}</a>
-              {% endif %}
-              {% if page.previous.url %}
-              <a class="btn-flat waves-effect waves-light deep-purple logo-font white-text" href="{{ page.previous.url }}" style="border: 1px #fff solid;">{{ page.previous.title }}</a>
-              {% endif %}
-              {% if page.previous.previous.url %}
-              <a class="btn-flat waves-effect waves-light deep-purple logo-font white-text" href="{{ page.previous.previous.url }}" style="border: 1px #fff solid;">{{ page.previous.previous.title }}</a>
-              {% endif %}
-            </div>
-          </div>
-        </article>
-      </div>
       {% if site.author.disqus %}
       <div class="col s12">
         <article>
@@ -106,12 +102,12 @@ layout: default
         {% if page.next %}
         <div class="left">
           <a class="btn-floating waves-effect waves-light white" href="{{ url }}{{ page.next.url }}"><i class="material-icons" style="color: rgba(0,0,0,.87);">arrow_back</i></a>
-          <span style="color: rgba(0,0,0,.87); margin-left: 8px;">Newer</span>
+          <span style="color: rgba(0,0,0,.87); margin-left: 8px;">{{ page.next.title }}</span>
         </div>
         {% endif %}
         {% if page.previous %}
         <div class="right">
-          <span style="color: rgba(0,0,0,.87); margin-right: 8px;">Older</span>
+          <span style="color: rgba(0,0,0,.87); margin-right: 8px;">{{ page.previous.title }}</span>
           <a class="btn-floating waves-effect waves-light white" href="{{ url }}{{ page.previous.url }}"><i class="material-icons" style="color: rgba(0,0,0,.87);">arrow_forward</i></a>
         </div>
         {% endif %}
