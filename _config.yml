@@ -2,6 +2,7 @@ title: MeowPiE's Lab
 description: 프로그래밍하는 냥파이의 냐옹냐옹 블로그다냥!
 url: https://meowpie.cf/
 keywords: ["Programming", "Coding", "Blog", "IT", "GitHub", "MeowPiE", "냥파이", "블로그", "코딩", "프로그래밍", "정보"]
+neighbors: ["KakaoBot - https://kakaobot.tk", "DarkTornado - https://blog.naver.com/dt3141592"]
 timezone: Asia/Seoul
 permalink: pretty
 
@@ -50,7 +51,7 @@ feed:
 kramdown:
   input: GFM
 
-paginate: 5
+paginate: 10
 paginate_path: "/blog/page/:num/"
 
 sass:

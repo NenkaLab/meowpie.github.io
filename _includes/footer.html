@@ -18,8 +18,10 @@
       </ul>
       <h5 class="white-text logo-font">Neighbors</h5>
       <ul>
-        <li><a class="grey-text text-lighten-3" href="http://kakaobot.tk">KakaoBot</a></li>
-        <li><a class="grey-text text-lighten-3" href="{{ url }}/notice/2017/12/07/join-neighbor">냥파이와 이웃을 맺기!</a></li>
+        {% for neighbor in site.neighbors limit:5 %}
+        <li><a class="grey-text text-lighten-3" href="{{ neighbor | split:" - " | last }}">{{ neighbor | split:" - " | first }}</a></li>
+        {% endfor %}
+        <li><a class="grey-text text-lighten-3" href="{{ url }}/about/#neighbors">이웃 더보기</a></li>
       </ul>
     </div>
   </div>
