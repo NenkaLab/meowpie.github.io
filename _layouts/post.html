@@ -10,21 +10,6 @@ layout: default
       <div class="col s12">
         <article>
           <div class="card">
-            <div class="card-content" style="color:#fff; background-color:#e51c23">
-              <span class="card-title">Notice</span>
-              {% for post in site.posts %}
-              {% if post.category == "Notice" %}
-              <h3><a class="fa fa-angellist white-text" href="{{ url }}{{ post.url }}"> {{ post.title }}</a></h3>
-              {% break %}
-              {% endif %}
-              {% endfor %}
-            </div>
-          </div>
-        </article>
-      </div>
-      <div class="col s12">
-        <article>
-          <div class="card">
             {% if page.image.path %}
             <div class="card-image">
               <img class="materialboxed" data-caption="© {{ page.image.copyright }}" src="{{ page.image.path }}">

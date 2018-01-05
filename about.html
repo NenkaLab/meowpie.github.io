@@ -32,12 +32,10 @@ permalink: /about/
           <div class="card">
             <div class="card-content">
               <span class="card-title">Neighbors</span>
-              <p>서로 이웃말고 이웃은 내마음 이지롱!</p>
-              <br />
+              <p>서로 이웃말고 이웃은 내마음 이지롱!</p><br>
               {% for neighbor in site.neighbors %}
-              <p><a class="fa fa-user-circle fa-lg black-text" href="{{ neighbor | split:" - " | last }}" target="_blank">{{ neighbor | split:" - " | first }}</a></p>
+              <p><a class="fa fa-user-circle fa-lg black-text" href="{{ neighbor | split:" - " | last }}" target="_blank">{{ neighbor | split:" - " | first }}</a></p><br>
               {% endfor %}
-              <br />
               <a class="btn-flat waves-effect waves-light deep-purple logo-font white-text" href="{{ url }}/notice/2017/12/07/join-neighbor/" style="border: 1px #fff solid;">냥파이와 이웃을 맺기!</a>
             </div>
           </div>
