@@ -5,7 +5,7 @@ date: 2017-11-28 10:30
 category: Notice
 tags: ['사이트', '블로그', '개편']
 image:
-  path: /assets/img/small_logo.png
+  path: /assets/img/logo.png
   copyright: MeowPiE
 ---
 

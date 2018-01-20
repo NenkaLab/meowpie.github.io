@@ -5,7 +5,7 @@ date: 2017-11-29 06:22
 category: GitHub
 tags: ['깃허브', '페이지', '보안', 'HTTPS']
 image:
-  path: /assets/img/github_page.png
+  path: /assets/img/github_pages.png
   copyright: GitHub
 ---
 

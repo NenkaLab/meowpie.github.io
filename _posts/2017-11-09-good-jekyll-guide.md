@@ -5,7 +5,7 @@ date: 2017-11-09 12:00
 category: GitHub
 tags: ['깃허브', '페이지', '지킬', '가이드']
 image:
-  path: /assets/img/jekyll_logo.png
+  path: /assets/img/jekyll.png
   copyright: Jekyll
 ---
 

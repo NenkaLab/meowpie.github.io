@@ -5,7 +5,7 @@ date: 2017-11-15 12:00
 category: Site
 tags: ['사이트', '커스텀', '주소', '도메인', '무료']
 image:
-  path: /assets/img/blog.jpg
+  path: /assets/img/blog.png
 ---
 
 나만의 사이트에 나만의 사이트 주소를 무료로 등록하고 싶은경우!

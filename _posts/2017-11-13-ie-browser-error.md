@@ -5,7 +5,7 @@ date: 2017-11-13 12:00
 category: Notice
 tags: ['사이트', '블로그', '접속', '익스', 'IE']
 image:
-  path: /assets/img/cutecat.jpg
+  path: /assets/img/cutecat.png
 ---
 
 안녕하세요? 냥파이입니다!

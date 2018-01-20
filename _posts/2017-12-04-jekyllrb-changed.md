@@ -5,7 +5,7 @@ date: 2017-12-04 00:40
 category: GitHub
 tags: ['Jekyll', '지킬', '가이드', '링크', '사진']
 image:
-  path: /assets/img/jekyll_logo.png
+  path: /assets/img/jekyll.png
   copyright: Jekyll
 ---
 

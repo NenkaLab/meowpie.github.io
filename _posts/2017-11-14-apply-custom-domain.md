@@ -5,7 +5,7 @@ date: 2017-11-14 12:00
 category: Site
 tags: ['사이트', '블로그', '커스텀', '주소', '도메인']
 image:
-  path: /assets/img/blog.jpg
+  path: /assets/img/blog.png
 ---
 
 제 블로그는 `https://meowpie.cf/` 라는 커스텀 도메인을 사용해요^^

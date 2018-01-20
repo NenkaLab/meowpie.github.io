@@ -5,7 +5,7 @@ date: 2017-12-21 07:54
 category: Notice
 tags: ['블로그', '정보', '안내']
 image:
-  path: /assets/img/blog.jpg
+  path: /assets/img/blog.png
 ---
 
 안녕하세요?

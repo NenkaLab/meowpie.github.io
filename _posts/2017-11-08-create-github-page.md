@@ -5,7 +5,7 @@ date: 2017-11-08 12:00
 category: GitHub
 tags: ['깃허브', '페이지', '사이트']
 image:
-  path: /assets/img/github_page.png
+  path: /assets/img/github_pages.png
   copyright: GitHub
 ---
 
