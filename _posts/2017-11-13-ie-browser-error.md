@@ -6,7 +6,6 @@ category: Notice
 tags: ['사이트', '블로그', '접속', '익스', 'IE']
 image:
   path: /assets/img/cutecat.jpg
-  copyright: Google
 ---
 
 안녕하세요? 냥파이입니다!

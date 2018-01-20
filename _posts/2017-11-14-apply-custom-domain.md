@@ -6,7 +6,6 @@ category: Site
 tags: ['사이트', '블로그', '커스텀', '주소', '도메인']
 image:
   path: /assets/img/blog.jpg
-  copyright: Google
 ---
 
 제 블로그는 `https://meowpie.cf/` 라는 커스텀 도메인을 사용해요^^
