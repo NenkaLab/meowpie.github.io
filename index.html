@@ -38,7 +38,7 @@ layout: default
       <div class="col s12">
         {% for post in site.posts limit:10 %}
         {% if post.category == "Notice" %}
-        <a class="btn-flat btn-large waves-effect waves-light indigo logo-font white-text" href="{{ url }}{{ post.url }}" style="border: 1px #fff solid;">{{ post.title }}</a>
+        <a class="btn-flat btn-large waves-effect waves-light black logo-font white-text" href="{{ url }}{{ post.url }}" style="border: 1px #fff solid;">{{ post.title }}</a>
         {% endif %}
         {% endfor %}
         <h4 class="indigo-text logo-font" id="latest-posts">Latest Posts</h4>
@@ -74,7 +74,7 @@ layout: default
       {% endfor %}
       <div class="col s12">
         <span style="float:right">
-          <a class="btn-flat waves-effect waves-light indigo logo-font white-text" href="{{ url }}/blog" style="border: 1px #fff solid;">더보기</a>
+          <a class="btn-flat waves-effect waves-light black logo-font white-text" href="{{ url }}/blog" style="border: 1px #fff solid;">더보기</a>
         </span>
       </div>
     </div>
