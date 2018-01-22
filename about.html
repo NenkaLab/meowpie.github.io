@@ -14,16 +14,12 @@ permalink: /about/
               <span class="card-title">About</span>
               <p>{{ site.about }}</p>
               <div class="row" style="border-top: 1px solid #dddddd; margin-top: 16px; margin-bottom: 0; padding-top: 16px;">
-              {% if site.author.email %}
                 <div class="col s1">
-                  <a href="mailto:{{ site.author.email }}" target="_blank"><i class="fa fa-envelope fa-2x fa-fw" aria-hidden="true"></i></a>
+                  <a class="waves-effect" href="mailto:{{ site.author.email }}" target="_blank"><i class="fa fa-envelope fa-2x fa-fw" aria-hidden="true"></i></a>
                 </div>
-              {% endif %}
-              {% if site.author.github %}
                 <div class="col s1">
-                  <a href="http://github.com/{{ site.author.github }}" target="_blank"><i class="fa fa-github fa-2x fa-fw" aria-hidden="true"></i></a>
+                  <a class="waves-effect" href="https://github.com/{{ site.author.github }}" target="_blank"><i class="fa fa-github fa-2x fa-fw" aria-hidden="true"></i></a>
                 </div>
-              {% endif %}
               </div>
             </div>
           </div>
@@ -32,11 +28,10 @@ permalink: /about/
           <div class="card">
             <div class="card-content">
               <span class="card-title">Neighbors</span>
-              <p>서로 이웃말고 이웃은 내마음 이지롱!</p><br>
               {% for neighbor in site.neighbors %}
-              <p><a class="fa fa-user-circle fa-lg black-text" href="{{ neighbor | split:" - " | last }}" target="_blank"> {{ neighbor | split:" - " | first }}</a></p><br>
+              <p><a class="btn-flat waves-effect waves-light black white-text fa fa-user-circle fa-lg" href="{{ neighbor | split:" - " | last }}" target="_blank" style="border: 2px #2196f3 solid;"> {{ neighbor | split:" - " | first }}</a></p><br>
               {% endfor %}
-              <a class="btn-flat waves-effect waves-light deep-purple logo-font white-text" href="{{ url }}/notice/2017/12/07/join-neighbor/" style="border: 1px #fff solid;">냥파이와 이웃을 맺기!</a>
+              <a class="btn-flat waves-effect waves-light black logo-font white-text" href="{{ url }}/notice/2017/12/07/join-neighbor/" style="border: 2px #2196f3 solid;">냥파이와 이웃맺기!</a>
             </div>
           </div>
         </article>

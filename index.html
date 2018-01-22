@@ -22,8 +22,8 @@ layout: default
         <h5 class="col s12 black-text logo-font">{{ site.description }}</h5>
       </div>
       <div class="row center">
-        <a class="btn-flat btn-large waves-effect waves-light black logo-font white-text" href="{{ url }}/about/" style="border: 1px #fff solid; margin-right: 4px;">About</a>
-        <a class="btn-flat btn-large waves-effect waves-light black logo-font white-text" href="{{ url }}/blog/" style="border: 1px #fff solid; margin-left: 4px;">Blog</a>
+        <a class="btn-flat btn-large waves-effect waves-light black logo-font white-text" href="{{ url }}/about/" style="border: 2px #2196f3 solid; margin-right: 4px;">About</a>
+        <a class="btn-flat btn-large waves-effect waves-light black logo-font white-text" href="{{ url }}/blog/" style="border: 2px #2196f3 solid; margin-left: 4px;">Blog</a>
         <div style="margin-top: 32px;">
           <a href="#latest-posts"><i class="material-icons black-text" style="font-size: 36px;">keyboard_arrow_down</i></a>
         </div>
@@ -39,7 +39,7 @@ layout: default
       <div class="col s12">
         {% for post in site.posts limit:10 %}
         {% if post.category == "Notice" %}
-        <a class="btn-flat btn-large waves-effect waves-light black logo-font white-text" href="{{ url }}{{ post.url }}" style="border: 1px #fff solid;">{{ post.title }}</a>
+        <a class="btn-flat btn-large waves-effect waves-light black logo-font white-text" href="{{ url }}{{ post.url }}" style="border: 2px #2196f3 solid;">{{ post.title }}</a>
         {% endif %}
         {% endfor %}
         <h4 class="blue-text logo-font" id="latest-posts">Latest Posts</h4>
@@ -75,7 +75,7 @@ layout: default
       {% endfor %}
       <div class="col s12">
         <span style="float:right">
-          <a class="btn-flat waves-effect waves-light black logo-font white-text" href="{{ url }}/blog" style="border: 1px #fff solid;">더보기</a>
+          <a class="btn-flat waves-effect waves-light black logo-font white-text" href="{{ url }}/blog" style="border: 2px #2196f3 solid;">더보기</a>
         </span>
       </div>
     </div>
