@@ -6,7 +6,7 @@
 
 * cutecat.png - Wallpaper Heat
 
-* jekyll.png - Jekyll, SILENT COMICS
+* jekyll.png - Jekyll(로고제작), SILENT COMICS(디자인)
 
 * octocat.png - GitHub
 
@@ -16,7 +16,11 @@
 
 * kakaobot.png - MeowPiE
 
-* logo.png / small_logo.png - MeowPiE
+* logo.png - Tigrex22(원본), MeowPiE(수정)
+
+* logo_old.png - MeowPiE
+
+* kurumi_school.png - Tigrex22
 
 * noimage.png - Tigrex22
 
