@@ -7,6 +7,12 @@
   {% include meta.html %}
   {% include favicon.html %}
   {% include css.html %}
+  {% include js.html %}
+  <script>
+    $(window).load(function() {
+      $(".loading").hide();
+    });
+  </script>
 </head>
 
 <body>
@@ -21,7 +27,6 @@
   <footer class="page-footer blue">
     {% include footer.html %}
   </footer>
-  {% include js.html %}
 </body>
 <div class="loading">
   <div class="loading-bar"></div>
