@@ -10,6 +10,7 @@
 </head>
 
 <body>
+  <div class="loading" style="z-index: 1;"></div>
   <header>
     {% include nav.html %}
   </header>
@@ -18,7 +19,7 @@
       {{ content }}
     </section>
   </main>
-  <footer class="page-footer blue">
+  <footer class="page-footer">
     {% include footer.html %}
   </footer>
   {% include js.html %}

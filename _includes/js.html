@@ -11,13 +11,14 @@
     $('.parallax').parallax();
     $('time').each(function () {
       if (now - (new Date($(this).attr('datetime')).getTime()) < 311040000){
-        $(this).append('<span class="new badge"></span>');
+        $(this).append('<span class="new badge blue" data-badge-caption="NEW"></span>');
       }
     });
     var url = window.location.href;
     if (url.search('/blog') >= 0 || url.search('/archive') >= 0 || url.search('/categories') >= 0 || url.search('/tags') >= 0 || url.search('/2017/') >= 0 || url.search('/2018/') >= 0) {
       $('#nav-blog').collapsible('open', 0);
     }
+    $('.loading').hide();
   });
 </script>
 {% if site.author.google_analytics %}
