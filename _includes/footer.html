@@ -20,7 +20,7 @@
         {% for neighbor in site.neighbors limit:5 %}
           <li><a class="grey-text text-lighten-3" href="{{ neighbor | split:" - " | last }}">{{ neighbor | split:" - " | first }}</a></li>
         {% endfor %}
-        <li><a class="grey-text text-lighten-3" href="{{ url }}/about/#neighbors">이웃 더보기</a></li>
+        <li><a class="grey-text text-lighten-3" href="{{ url }}/about/">이웃 더보기</a></li>
       </ul>
     </div>
   </div>
