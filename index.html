@@ -37,20 +37,28 @@ layout: default
   <div class="section">
     <div class="row">
       <div class="col s12">
+        <h3 class="blue-text logo-font">공지사항</h3>
         {% for post in site.posts limit:10 %}
-        {% if post.category == "Notice" %}
-        <a class="btn-flat btn-large waves-effect waves-light black logo-font white-text" href="{{ url }}{{ post.url }}" style="border: 2px #2196f3 solid;">{{ post.title }}</a>
-        {% endif %}
+          {% if post.category == "Notice" %}
+            <a class="btn-flat btn-large waves-effect waves-light black logo-font white-text" href="{{ url }}{{ post.url }}" style="border: 2px #2196f3 solid;">{{ post.title }}</a>
+          {% endif %}
         {% endfor %}
-        <h4 class="blue-text logo-font" id="latest-posts">Latest Posts</h4>
+        <h3 class="blue-text logo-font" id="latest-posts">최근 글</h3>
       </div>
       {% for post in site.posts limit:30 %}
-        {% if post.image.path %}
         <div class="col s12 m6">
           <article>
             <div class="card">
               <div class="card-image">
-                <img class="materialboxed" data-caption="© {{ post.image.copyright }}" src="{{ post.image.path }}">
+                {% if post.image.path %}
+                  {% if post.image.copyright %}
+                    <img class="materialboxed" data-caption="© {{ post.image.copyright }}" src="{{ post.image.path }}">
+                  {% else %}
+                    <img class="materialboxed" data-caption="저작자 미상" src="{{ post.image.path }}">
+                  {% endif %}
+                {% else %}
+                  <img class="materialboxed" data-caption="© MeowPiE" src="/assets/img/noimage.png">
+                {% endif %}
                 <span class="card-title" style="background-color: rgba(0,0,0,.3); cursor: pointer; padding: 8px 24px; width: 100%;" onclick="window.location='{{ url }}{{ post.url }}'">
                   {{ post.title }}<time datetime="{{ post.date }}" style="font-size: 16px;"> | {{ post.date | date_to_string }}</time>
                 </span>
@@ -58,24 +66,10 @@ layout: default
             </div>
           </article>
         </div>
-        {% else %}
-        <div class="col s12 m6">
-          <article>
-            <div class="card">
-              <div class="card-image">
-                <img class="materialboxed" data-caption="© MeowPiE" src="/assets/img/noimage.png">
-                <span class="card-title" style="background-color: rgba(0,0,0,.3); cursor: pointer; padding: 8px 24px; width: 100%;" onclick="window.location='{{ url }}{{ post.url }}'">
-                  {{ post.title }}<time datetime="{{ post.date }}" style="font-size: 16px;"> | {{ post.date | date_to_string }}</time>
-                </span>
-              </div>
-            </div>
-          </article>
-        </div>
-        {% endif %}
       {% endfor %}
       <div class="col s12">
         <span style="float:right">
-          <a class="btn-flat waves-effect waves-light black logo-font white-text" href="{{ url }}/blog" style="border: 2px #2196f3 solid;">더보기</a>
+          <a class="btn-flat waves-effect waves-light black logo-font white-text" href="{{ url }}/blog" style="border: 2px #2196f3 solid;">글 더보기</a>
         </span>
       </div>
     </div>

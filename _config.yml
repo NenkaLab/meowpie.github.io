@@ -1,38 +1,20 @@
 title: MeowPiE's Lab
 description: 프로그래밍하는 냥파이의 냐옹냐옹 블로그다냥!
 url: https://meowpie.cf/
-keywords: ["Programming", "Coding", "Blog", "IT", "GitHub", "MeowPiE", "냥파이", "블로그", "코딩", "프로그래밍", "정보"]
-neighbors: ["KakaoBot - https://kakaobot.tk", "DarkTornado - https://blog.naver.com/dt3141592"]
+keywords: ["Programming", "Coding", "Blog", "IT", "GitHub", "MeowPiE", "냥파이", "블로그", "코딩", "프로그래밍"]
+neighbors: ["KakaoBot - https://kakaobot.tk", "NewDeaBox - https://newdeaboxgroup.github.io"]
 timezone: Asia/Seoul
 permalink: pretty
 
 about: "냥파이의 프로그래밍과 취미생활을 담은 깃허브 페이지 블로그입니다!<br>항상 신기술을 탐구하고 발빠르게 사용하려고 노력하고있는 평범한 학생입니다.<br>배가 산으로 너무 많이가서 코딩이 아닌 잡다한 컴퓨터 정보를 쓰고있습니다;;<br>일주일에 적어도 글을 하나정도 적는게 제 작은 목표입니다~<br>방문해주셔서 고맙습니다!"
+footertext: "냥파이의 프로그래밍과 취미생활이 올라오는 깃허브 페이지 블로그입니다!<br>방문해주셔서 고맙습니다~"
 
 author:
-  codepen:
   disqus: meowpies-lab
-  dribbble:
   email: email@meowpie.cf
-  facebook:
-  flickr:
-  foursquare:
-  github: MeowPiE # required
+  github: MeowPiE
   google_analytics: UA-109470193-1
-  google_plus:
-  instagram:
-  lastfm:
-  linkedin:
-  name: MeowPiE # required
-  pinterest:
-  soundcloud:
-  stackoverflow:
-  steam:
-  telegram:
-  tumblr:
-  twitter:
-  weibo:
-  xing:
-  youtube:
+  name: MeowPiE
 
 defaults:
   - scope:

@@ -3,24 +3,22 @@
     <div class="col l6 s12">
       <h5 class="white-text logo-font">{{ site.title }}</h5>
       <p class="grey-text text-lighten-4">
-        {{ site.about }}<br><br>
+        {{ site.footertext }}<br>
         Designed by <a class="grey-text text-lighten-3" href="https://github.com/Astro36/Materialize-Jekyll">Materialize-Jekyll</a>
       </p>
     </div>
     <div class="col l4 offset-l2 s12">
-      <h5 class="white-text logo-font">Links</h5>
+      <h5 class="white-text logo-font">유용한 링크</h5>
       <ul>
-        {% if site.author.email %}
         <li><a class="grey-text text-lighten-3" href="mailto:{{ site.author.email }}">Email</a></li>
-        {% endif %}
         <li><a class="grey-text text-lighten-3" href="https://github.com/{{ site.author.github }}">Github</a></li>
         <li><a class="grey-text text-lighten-3" href="{{ url }}/atom.xml">새글 확인용 피드</a></li>
         <li><a class="grey-text text-lighten-3" href="{{ url }}/feed.xml">RSS 전체보기</a></li>
       </ul>
-      <h5 class="white-text logo-font">Neighbors</h5>
+      <h5 class="white-text logo-font">이웃 블로그</h5>
       <ul>
         {% for neighbor in site.neighbors limit:5 %}
-        <li><a class="grey-text text-lighten-3" href="{{ neighbor | split:" - " | last }}">{{ neighbor | split:" - " | first }}</a></li>
+          <li><a class="grey-text text-lighten-3" href="{{ neighbor | split:" - " | last }}">{{ neighbor | split:" - " | first }}</a></li>
         {% endfor %}
         <li><a class="grey-text text-lighten-3" href="{{ url }}/about/#neighbors">이웃 더보기</a></li>
       </ul>
@@ -32,7 +30,7 @@
   <div class="container">
     © {{ site.time | date: "%Y" }} {{ site.author.name }}. All rights reserved.
     <div class="right">
-      <span class="white-text" style="font-weight: 400; margin-right: 5px;">View on</span><a class="fa fa-github fa-lg white-text" href="https://github.com/MeowPiE/meowpie.github.io"></a>
+      <span class="white-text" style="font-weight: 400; margin-right: 5px;">View on</span><a class="fab fa-github fa-lg white-text" href="https://github.com/MeowPiE/meowpie.github.io"></a>
     </div>
   </div>
 </div>

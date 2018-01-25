@@ -11,16 +11,20 @@ layout: default
         <article>
           <div class="card">
             {% if page.image.path %}
-            <div class="card-image">
-              <img class="materialboxed" data-caption="© {{ page.image.copyright }}" src="{{ page.image.path }}">
-              <span class="card-title truncate" style="background-color: rgba(0,0,0,.3); width: 100%;">{{ page.title }}</span>
-            </div>
+              <div class="card-image">
+                {% if page.image.copyright %}
+                  <img class="materialboxed" data-caption="© {{ page.image.copyright }}" src="{{ page.image.path }}">
+                {% else %}
+                  <img class="materialboxed" data-caption="저작자 미상" src="{{ page.image.path }}">
+                {% endif %}
+                <span class="card-title truncate" style="background-color: rgba(0,0,0,.3); width: 100%;">{{ page.title }}</span>
+              </div>
             {% endif %}
             <div class="card-content">
               {% unless page.image.path %}
-              <span class="card-title truncate">{{ page.title }}</span>
+                <span class="card-title truncate">{{ page.title }}</span>
               {% endunless %}
-              <p style="font-weight: 600; margin-bottom: 10px;"><a href="{{ url }}/categories/">{{ page.categories }}</a> | <time datetime="{{ post.date }}">{{ page.date | date_to_string }}</time>{% if site.author.disqus %} | <a href="{{ url }}{{ page.url }}#disqus_thread" data-disqus-identifier="{{ page.id }}">Comment</a>{% endif %}</p>
+              <p style="font-weight: 600; margin-bottom: 10px;"><a href="{{ url }}/categories/">{{ page.categories }}</a> | <time datetime="{{ post.date }}">{{ page.date | date: "%F %r" }}</time>{% if site.author.disqus %} | <a href="{{ url }}{{ page.url }}#disqus_thread" data-disqus-identifier="{{ page.id }}">Comment</a>{% endif %}</p>
               <!-- AddToAny BEGIN -->
               <div class="a2a_kit a2a_kit_size_32 a2a_default_style">
                 <a class="a2a_button_google_plus"></a>
@@ -54,9 +58,7 @@ layout: default
                     <td>
                       <span style="font-size: 12px; font-weight: 400; min-height: 31px;">
                         <span rel="dct:type" xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Text" property="dct:title">{{ page.title }}</span> by <a rel="cc:attributionURL" xmlns:cc="http://creativecommons.org/ns#" href="https://github.com/{{ site.author.github }}" property="cc:attributionName">{{ site.author.name }}</a> is licensed under a <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.ko">Creative Commons Attribution 4.0 International License</a>.<br>
-                        {% if site.author.email %}
                         Permissions beyond the scope of this license may be available at <a xmlns:cc="http://creativecommons.org/ns#" href="mailto:{{ site.author.email }}" rel="cc:morePermissions">{{ site.author.email }}</a>.
-                        {% endif %}
                       </span>
                     </td>
                   </tr>
@@ -69,32 +71,27 @@ layout: default
             </div>
           </div>
         </article>
-      </div>
-      {% if site.author.disqus %}
-      <div class="col s12">
         <article>
           <div class="card">
             <div class="card-content">
-              <span class="card-title">Comments</span>
+              <span class="card-title">댓글</span>
               <p>바른말 고운말을 사용해주세요 (>_<) 지적과 건의는 Good!!</p>
               {% include disqus.html %}
             </div>
           </div>
         </article>
-      </div>
-      {% endif %}
       <div class="col s12">
         {% if page.next %}
-        <div class="left">
-          <a class="btn-floating waves-effect waves-light white" href="{{ url }}{{ page.next.url }}"><i class="material-icons" style="color: rgba(0,0,0,.87);">arrow_back</i></a>
-          <span style="color: rgba(0,0,0,.87); margin-left: 8px;">{{ page.next.title }}</span>
-        </div>
+          <div class="left">
+            <a class="btn-floating waves-effect waves-light white" href="{{ url }}{{ page.next.url }}"><i class="material-icons" style="color: rgba(0,0,0,.87);">arrow_back</i></a>
+            <span style="color: rgba(0,0,0,.87); margin-left: 8px;">{{ page.next.title }}</span>
+          </div>
         {% endif %}
         {% if page.previous %}
-        <div class="right">
-          <span style="color: rgba(0,0,0,.87); margin-right: 8px;">{{ page.previous.title }}</span>
-          <a class="btn-floating waves-effect waves-light white" href="{{ url }}{{ page.previous.url }}"><i class="material-icons" style="color: rgba(0,0,0,.87);">arrow_forward</i></a>
-        </div>
+          <div class="right">
+            <span style="color: rgba(0,0,0,.87); margin-right: 8px;">{{ page.previous.title }}</span>
+            <a class="btn-floating waves-effect waves-light white" href="{{ url }}{{ page.previous.url }}"><i class="material-icons" style="color: rgba(0,0,0,.87);">arrow_forward</i></a>
+          </div>
         {% endif %}
       </div>
     </div>
@@ -102,5 +99,5 @@ layout: default
 </div>
 
 {% if site.author.disqus %}
-<script id="dsq-count-scr" src="//{{ site.author.disqus }}.disqus.com/count.js" async></script>
+  <script id="dsq-count-scr" src="//{{ site.author.disqus }}.disqus.com/count.js" async></script>
 {% endif %}

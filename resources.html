@@ -11,16 +11,18 @@ permalink: /resources/
         <article>
           <div class="card">
             <div class="card-content">
-              <span class="card-title">Title Images</span>
+              <span class="card-title">대표 이미지</span>
               <ul class="collapsible" data-collapsible="expandable">
-                {% for post in site.posts %} {% if post.image.path %}
-                <li>
-                  <div class="collapsible-header">{{ post.title }}</div>
-                  <div class="collapsible-body">
-                    <img class="materialboxed responsive-img" src="{{ post.image.path }}" alt="{{ post.image.copyright }}">
-                  </div>
-                </li>
-                {% endif %} {% endfor %}
+                {% for post in site.posts %}
+                  {% if post.image.path %}
+                    <li>
+                      <div class="collapsible-header">{{ post.title }}</div>
+                      <div class="collapsible-body">
+                        <img class="materialboxed responsive-img" src="{{ post.image.path }}" alt="{{ post.image.copyright }}">
+                      </div>
+                    </li>
+                  {% endif %}
+                {% endfor %}
               </ul>
             </div>
           </div>
@@ -28,7 +30,7 @@ permalink: /resources/
         <article>
           <div class="card">
             <div class="card-content">
-              <span class="card-title">Theme License</span>
+              <span class="card-title">테마 라이선스</span>
               <span style="font-family: Ubuntu Mono, Consolas, monospace">
                 <blockquote>
                   Materialize Jekyll<br>
