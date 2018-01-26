@@ -41,8 +41,8 @@
 }
 .loading-bar {
   display: inline-block;
-  width: 8px;
-  height: 32px;
+  width: 6px;
+  height: 24px;
   border-radius: 4px;
   animation: loading 1s ease-in-out infinite;
 }
