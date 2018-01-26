@@ -1,4 +1,4 @@
-<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 <script type="text/javascript" src="{{ site.url }}/assets/js/materialize.min.js"></script>
 <script type="text/javascript" src="{{ site.url }}/assets/js/prism.min.js"></script>
 <script type="text/javascript">
@@ -18,9 +18,14 @@
     if (url.search('/blog') >= 0 || url.search('/archive') >= 0 || url.search('/categories') >= 0 || url.search('/tags') >= 0 || url.search('/2017/') >= 0 || url.search('/2018/') >= 0) {
       $('#nav-blog').collapsible('open', 0);
     }
-    $('.loading').hide();
-    Materialize.toast('로딩이 완료되었습니다!', 1000)
   });
+  $(window).on('load', function (e) {
+    $('.load').delay(500).fadeOut('slow');
+    Materialize.toast('로딩이 완료되었습니다!', 1000);
+    if (new Date().getTime() - loadTime > 10000) {
+      Materialize.toast('네트워크 상태가 좋지 않습니다!', 3000);
+    }
+  })
 </script>
 {% if site.author.google_analytics %}
   <script>

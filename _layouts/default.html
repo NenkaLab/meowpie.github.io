@@ -10,11 +10,11 @@
 </head>
 
 <body>
-  <div class="loading" style="z-index: 1;">
-    <div class="loading-bar"></div>
-    <div class="loading-bar"></div>
-    <div class="loading-bar"></div>
-    <div class="loading-bar"></div>
+  <script>
+    var loadTime = new Date().getTime();
+  </script>
+  <div class="load">
+    {% include loading.html %}
   </div>
   <header>
     {% include nav.html %}
