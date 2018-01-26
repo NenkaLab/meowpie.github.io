@@ -13,7 +13,7 @@ image:
 
 # 파싱이란 무엇인가?
 
-## [파싱이란?](https://meowpie.cf/it/2018/01/26/website-parsing)
+## [파싱이란?](https://meowpie.cf/it/2018/01/26/web-parsing)
 
 # 카카오봇에서 파싱이란?
 
