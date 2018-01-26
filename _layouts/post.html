@@ -64,10 +64,9 @@ layout: default
               <script>
                 var a2a_config = a2a_config || {};
                 a2a_config.linkname = "{{ site.title }} | {{ page.title }}";
-                var ENCODED_TITLE = encodeURI("{{ site.title }} | {{ page.title }}");
                 a2a_config.linkurl = "{{ url }}{{ page.url }}";
                 a2a_config.locale = "ko";
-                a2a_config.custom_services = [["NAVER", "https://share.naver.com/web/shareView.nhn?url=A2A_LINKURL_ENC&title=" + ENCODED_TITLE, "{{ url }}/assets/img/naver_square.png"]];
+                a2a_config.custom_services = [["NAVER", "https://share.naver.com/web/shareView.nhn?url=A2A_LINKURL_ENC&title=A2A_LINKNAME_ENC", "{{ url }}/assets/img/naver_square.png"]];
               </script>
               <script async src="https://static.addtoany.com/menu/page.js"></script>
             </div>
