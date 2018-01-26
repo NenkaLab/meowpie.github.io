@@ -51,9 +51,15 @@ layout: default
                 <div class="chip">{{ tag }}</div>
               {% endfor %}
               <div class="divider" style="margin: 16px 0;"></div>
-              <a class="waves-effect red-text" href="https://plus.google.com/share?url={{ url }}{{ page.url }}"><i class="fab fa-google-plus fa-2x"></i></a>
-              <a class="waves-effect blue-text" href="https://www.facebook.com/sharer/sharer.php?u={{ url }}{{ page.url }}"><i class="fab fa-facebook fa-2x"></i></a>
-              <a class="waves-effect red-text" href="https://twitter.com/share?text={{ page.title }} | {{ site.title }}&url={{ url }}{{ page.url }}"><i class="fab fa-twitter fa-2x"></i></a>
+              <div class"col s1">
+                <a class="waves-effect red-text" href="https://plus.google.com/share?url={{ url }}{{ page.url }}"><i class="fab fa-google-plus fa-2x"></i></a>
+              </div>
+              <div class"col s1">
+                <a class="waves-effect purple-text" href="https://www.facebook.com/sharer/sharer.php?u={{ url }}{{ page.url }}"><i class="fab fa-facebook fa-2x"></i></a>
+              </div>
+              <div class"col s1">
+                <a class="waves-effect blue-text" href="https://twitter.com/share?text={{ page.title }} | {{ site.title }}&url={{ url }}{{ page.url }}"><i class="fab fa-twitter fa-2x"></i></a>
+              </div>
             </div>
           </div>
         </article>
