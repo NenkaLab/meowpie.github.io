@@ -56,6 +56,7 @@ layout: default
                 <a class="a2a_button_facebook"></a>
                 <a class="a2a_button_twitter"></a>
                 <a class="a2a_button_kakao"></a>
+                <a class="a2a_button_naver"></a>
                 <a class="a2a_button_telegram"></a>
                 <a class="a2a_button_email"></a>
                 <a class="a2a_button_copy_link"></a>
@@ -63,10 +64,11 @@ layout: default
               </div>
               <script>
                 var a2a_config = a2a_config || {};
-                a2a_config.custom_services = [["NAVER", "https://share.naver.com/web/shareView.nhn?url=A2A_LINKURL_ENC&title=A2A_LINKNAME_ENC", "{{ url }}/assets/img/naver_square.png"]];
                 a2a_config.linkname = "{{ site.title }} | {{ page.title }}";
+                var ENCODED_TITLE = encodeURI("{{ site.title }} | {{ page.title }}");
                 a2a_config.linkurl = "{{ url }}{{ page.url }}";
                 a2a_config.locale = "ko";
+                a2a_config.custom_services = [["NAVER", "https://share.naver.com/web/shareView.nhn?url=A2A_LINKURL_ENC&title=ENCODED_TITLE", "{{ url }}/assets/img/naver_square.png"]];
               </script>
               <script async src="https://static.addtoany.com/menu/page.js"></script>
             </div>
