@@ -10,7 +10,7 @@ pre[class*="language-"] {
 	color: black;
 	background: none;
 	text-shadow: 0 1px white;
-	font-family: 'Fira Mono', Consolas, monospace;
+	font-family: 'Ubuntu Mono', Consolas, monospace;
 	text-align: left;
 	white-space: pre;
 	word-spacing: normal;
@@ -135,4 +135,3 @@ pre[class*="language-"] {
 .token.entity {
 	cursor: help;
 }
-
