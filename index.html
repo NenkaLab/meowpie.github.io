@@ -38,7 +38,7 @@ layout: default
     <div class="row">
       <div class="col s12">
         <h3 class="blue-text logo-font">공지사항</h3>
-        {% for post in site.posts limit:10 %}
+        {% for post in site.posts limit:20 %}
           {% if post.category == "Notice" %}
             <a class="btn-flat btn-large waves-effect waves-light black logo-font white-text" href="{{ url }}{{ post.url }}" style="border: 2px #2196f3 solid;">{{ post.title }}</a>
           {% endif %}
