@@ -38,9 +38,14 @@ layout: default
     <div class="row">
       <div class="col s12">
         <h3 class="blue-text logo-font">공지사항</h3>
-        {% for post in site.posts limit:20 %}
+        {% assign notice = 0 %}
+        {% for post in site.posts %}
           {% if post.category == "Notice" %}
             <a class="btn-flat btn-large waves-effect waves-light black logo-font white-text" href="{{ url }}{{ post.url }}" style="border: 2px #2196f3 solid;">{{ post.title }}</a>
+            {% assign notice = notice | plus: 1 %}
+            {% if notice > 4 %}
+              {% break %}
+            {% endif %}
           {% endif %}
         {% endfor %}
         <h3 class="blue-text logo-font" id="latest-posts">최근 글</h3>
