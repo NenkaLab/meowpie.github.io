@@ -1,3 +1,5 @@
+{% include random_post.html %}
+
 <div class="navbar-fixed">
   <nav>
     <div class="nav-wrapper">
@@ -6,6 +8,7 @@
       <ul class="right hide-on-med-and-down">
         <li><a class="logo-font waves-effect" href="{{ site.url }}">Home</a></li>
         <li><a class="logo-font waves-effect" href="{{ url }}/about/">About</a></li>
+        <li><a class="logo-font waves-effect" href="javascript:location.href=random_post[0].split(' | ')[1];">Random</a></li>
         <li><a class="dropdown-button waves-effect" href="#!" data-activates="dropdown-menu" data-beloworigin="true"><span class="logo-font">Blog</span><i class="material-icons right">arrow_drop_down</i></a></li>
       </ul>
     </div>

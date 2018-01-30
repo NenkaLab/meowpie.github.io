@@ -1,0 +1,24 @@
+<script>
+  var posts = [];
+</script>
+
+{% for post in site.posts %}
+  <script>
+    posts.push('{{ post.title }} | {{ url }}{{ post.url }}');
+  </script>
+{% endfor %}
+
+<script>
+  var random_post = [];
+  for (var i = 0; i < posts.length; i++) {
+    random_post.push(posts[Math.floor(Math.random() * posts.length)]);
+    if (i > 0) {
+      if (random_post[i] == random_post[i - 1]) {
+        while (random_post[i] != random_post[i - 1]) {
+          random_post.splice(i, 1);
+          random_post.push(posts[Math.floor(Math.random() * posts.length)]);
+        }
+      }
+    }
+  }
+</script>

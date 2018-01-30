@@ -1,5 +1,5 @@
 ---
-title: "카카오봇 가이드 - 설치하기"
+title: "카카오봇 기본 사용법"
 author: MeowPiE
 date: 2017-12-21 08:14
 category: KakaoBot
