@@ -24,7 +24,7 @@ title: RSS View
   	    {% endfor %}
   	    {% for cat in post.category %}
     	    <category>{{ cat | xml_escape }}</category>
-  	    {% endfor %}|
+  	    {% endfor %}
       </item>
     {% endfor %}
   </channel>
