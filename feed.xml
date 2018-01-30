@@ -15,7 +15,7 @@ title: RSS View
 	  {% for post in site.posts %}
   	  <item>
   	    <title>{{ post.title | xml_escape }}</title>
-  	    <description>{% if post.image.path %}{{ "<img src="{{ post.image.path }}" alt="{{ post.title }}">" | xml_escape }} {% endif %}{{ post.content | xml_escape }}</description>
+  	    <description>{% if post.image.path %}&lt;p&gt;&lt;img src=&quot;{{ post.image.path }}&quot; alt=&quot;{{ post.title }}&quot; /&gt;&lt;/p&gt;{% endif %}{{ post.content | xml_escape }}</description>
   	    <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
   	    <link>{{ post.url | prepend: site.baseurl | prepend: site.url }}</link>
   	    <guid isPermaLink="true">{{ post.url | prepend: site.baseurl | prepend: site.url }}</guid>
