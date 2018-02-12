@@ -20,12 +20,9 @@
     }
   });
   $(window).on('load', function (e) {
-    $('.load').delay(500).fadeOut('slow');
+    $('.load').fadeOut();
     Materialize.toast('로딩이 완료되었습니다!', 1000);
-    if (new Date().getTime() - loadTime > 10000) {
-      Materialize.toast('네트워크 상태가 좋지 않습니다!', 3000);
-    }
-  })
+  });
 </script>
 {% if site.author.google_analytics %}
   <script>

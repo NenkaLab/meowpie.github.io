@@ -1,5 +1,3 @@
-{% include random_post.html %}
-
 <div class="navbar-fixed">
   <nav>
     <div class="nav-wrapper">
@@ -8,7 +6,6 @@
       <ul class="right hide-on-med-and-down">
         <li><a class="logo-font waves-effect" href="{{ site.url }}">Home</a></li>
         <li><a class="logo-font waves-effect" href="{{ url }}/about/">About</a></li>
-        <li><a class="logo-font waves-effect" href="javascript:location.href=random_post[0].split(' | ')[1];">Random</a></li>
         <li><a class="dropdown-button waves-effect" href="#!" data-activates="dropdown-menu" data-beloworigin="true"><span class="logo-font">Blog</span><i class="material-icons right">arrow_drop_down</i></a></li>
       </ul>
     </div>
@@ -29,8 +26,8 @@
     <div class="user-view">
       <div class="background blue"></div>
       <img class="circle materialboxed" data-caption="{{ site.author.name }}" src="https://github.com/{{ site.author.github }}.png" alt="Avatar">
-      <span class="logo-font black-text name">{{ site.author.name }}</span>
-      <a href="mailto:{{ site.author.email }}"><span class="black-text email">{{ site.author.email }}</span></a>
+      <span class="white-text name">{{ site.author.name }}</span>
+      <a href="mailto:{{ site.author.email }}"><span class="white-text email">{{ site.author.email }}</span></a>
     </div>
   </li>
   <li><a class="logo-font waves-effect" href="{{ site.url }}">Home</a></li>

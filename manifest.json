@@ -1,5 +1,5 @@
 {
- "name": "MeowPiE's Lab",
+ "name": "{{ site.title }}",
  "icons": [
   {
    "src": "\/assets/favicon/android-icon-36x36.png",

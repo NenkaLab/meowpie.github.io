@@ -13,7 +13,8 @@ permalink: /tags/
       <div class="col s12 m6">
         <article>
           <div class="card">
-            <div class="card-content태그</span>
+            <div class="card-content">
+              <span class="card-title">태그</span>
               {% for tag in sorted_tags %}
                 <div class="chip" onclick="$('#posts').collapsible('open', {{ forloop.index0 }});">{{ tag | first }}</div>
               {% endfor %}
