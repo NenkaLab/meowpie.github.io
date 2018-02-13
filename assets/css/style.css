@@ -49,6 +49,6 @@
 .loading {
   position: fixed;
   top: 50%;
-  left: 48%;
+  left: 50%;
   z-index: 999;
 }
