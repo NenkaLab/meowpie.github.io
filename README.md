@@ -1,6 +1,6 @@
-# MeowPiE's Lab
+# **MeowPiE's Lab**
 
-![LOGO](./assets/img/logo.png)
+![LOGO](./assets/img/logo_full.png)
 
 > 프로그래밍하는 냥파이의 냐옹냐옹 블로그다냥!
 
@@ -8,7 +8,9 @@
 
 많이 방문해주세요~!
 
-## YAML Front Matter
+그렇다고 너무 많이오면 터지는거 알죠? (깃허브가? 정말로?)
+
+## YAML 백업
 
 ```yaml
 ---
