@@ -5,7 +5,7 @@
 #post-content h5 { font-size: 16px; }
 #post-content h6 { font-size: 14px; }
 
-.logo-font { font-family: 'Comfortaa', "Spoqa Han Sans", sans-serif; }
+.logo-font { font-family: "Comfortaa", "Nanum Gothic", sans-serif; }
 
 .parallax-container {
   min-height: 380px;
@@ -32,23 +32,4 @@
   #index-banner .section {
     top: 0;
   }
-}
-
-.load {
-  width: 100%;
-	height: 100%;
-	top: 0;
-	left: 0;
-	position: fixed;
-	display: block;
-	opacity: 0.8;
-	background: white;
-	z-index: 998;
-}
-
-.loading {
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  z-index: 999;
 }
