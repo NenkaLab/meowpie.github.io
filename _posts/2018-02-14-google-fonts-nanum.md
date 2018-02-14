@@ -5,7 +5,7 @@ date: 2018-02-14 08:52
 category: IT
 tags: ['글꼴', '네이버', '나눔글꼴']
 image:
-  path: /assets/img/2018-02-14-google-font-nanum/info.png
+  path: /assets/img/2018-02-14-google-fonts-nanum/info.png
   copyright: Naver
 ---
 
@@ -17,6 +17,6 @@ image:
 
 그동안 얼리 엑세스(?)에서만 볼 수 있었던 나눔글꼴들이! 등장했습니다.
 
-![나눔나눔글꼴](/assets/img/2018-02-14-google-font-nanum/fonts.png)
+![나눔나눔글꼴](/assets/img/2018-02-14-google-fonts-nanum/fonts.png)
 
 전 기념으로 나눔글꼴 코딩 글꼴을...!
